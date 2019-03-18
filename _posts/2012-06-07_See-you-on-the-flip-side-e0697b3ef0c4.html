@@ -1,0 +1,69 @@
+<!DOCTYPE html><html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"><title>See you on the flip side</title><style>
+      * {
+        font-family: Georgia, Cambria, "Times New Roman", Times, serif;
+      }
+      html, body {
+        margin: 0;
+        padding: 0;
+      }
+      h1 {
+        font-size: 50px;
+        margin-bottom: 17px;
+        color: #333;
+      }
+      h2 {
+        font-size: 24px;
+        line-height: 1.6;
+        margin: 30px 0 0 0;
+        margin-bottom: 18px;
+        margin-top: 33px;
+        color: #333;
+      }
+      h3 {
+        font-size: 30px;
+        margin: 10px 0 20px 0;
+        color: #333;
+      }
+      header {
+        width: 640px;
+        margin: auto;
+      }
+      section {
+        width: 640px;
+        margin: auto;
+      }
+      section p {
+        margin-bottom: 27px;
+        font-size: 20px;
+        line-height: 1.6;
+        color: #333;
+      }
+      section img {
+        max-width: 640px;
+      }
+      footer {
+        padding: 0 20px;
+        margin: 50px 0;
+        text-align: center;
+        font-size: 12px;
+      }
+      .aspectRatioPlaceholder {
+        max-width: auto !important;
+        max-height: auto !important;
+      }
+      .aspectRatioPlaceholder-fill {
+        padding-bottom: 0 !important;
+      }
+      header,
+      section[data-field=subtitle],
+      section[data-field=description] {
+        display: none;
+      }
+      </style></head><body><article class="h-entry">
+<header>
+<h1 class="p-name">See you on the flip side</h1>
+</header>
+<section data-field="body" class="e-content">
+<section name="418c" class="section section--body section--first"><div class="section-divider"><hr class="section-divider"></div><div class="section-content"><div class="section-inner sectionLayout--insetColumn"><h3 name="2fc5" id="2fc5" class="graf graf--h3 graf--leading graf--title">See you on the flip side</h3><p name="cf7c" id="cf7c" class="graf graf--p graf-after--h3">For a recent project, I needed a way of making an ordinary HTML element appear to flip over and reveal something on the other side. Fortunately, the project was cutting edge browser only — Chrome, Safari, Firefox and IE9+ were listed as requirements, and the technique below also works nicely on Android and iOS devices.</p><p name="ea0a" id="ea0a" class="graf graf--p graf-after--p">Naturally, in the absence of any idea of how to solve the problem I Googled it. Finding only <a href="http://dev.jonraasch.com/quickflip/examples/" data-href="http://dev.jonraasch.com/quickflip/examples/" class="markup--anchor markup--p-anchor" rel="noopener" target="_blank">slightly</a> <a href="http://lab.smashup.it/flip/" data-href="http://lab.smashup.it/flip/" class="markup--anchor markup--p-anchor" rel="noopener" target="_blank">disappointing</a> (but actually very good if you need something that works in older browsers) or <a href="http://css3playground.com/flip-card.php" data-href="http://css3playground.com/flip-card.php" class="markup--anchor markup--p-anchor" rel="noopener" target="_blank">very nice, 3D but not IE9 friendly</a> efforts, I set about creating my own.</p><p name="d899" id="d899" class="graf graf--p graf-after--p">I quickly discovered CSS3’s <a href="https://developer.mozilla.org/en/CSS/transform" data-href="https://developer.mozilla.org/en/CSS/transform" class="markup--anchor markup--p-anchor" rel="noopener" target="_blank">transform property</a>. As with many exciting bits of CSS, the main browser vendors have yet to decide on a standard, so they’ve all provided their own -vendor-transform equivalents. Happily, they all seem to be exactly the same, at least as far as I was using them.</p><p name="1c69" id="1c69" class="graf graf--p graf-after--p">Many transformations are available, but the two I was interested in are scale and rotate. For example…</p><pre name="b0ee" id="b0ee" class="graf graf--pre graf-after--p">#myelement { -webkit-transform : scale(0.6, 1) rotate(4deg); -moz-transform : scale(0.6, 1) rotate(4deg); -ms-transform : scale(0.6, 1) rotate(4deg); }</pre><p name="5163" id="5163" class="graf graf--p graf-after--pre">…has the nice effect of making an element look a bit like it is in the process of being flipped over. Have a look <a href="http://jsfiddle.net/ncGnJ/" data-href="http://jsfiddle.net/ncGnJ/" class="markup--anchor markup--p-anchor" rel="noopener" target="_blank">here</a>, if you’re on one of the above browsers.</p><p name="adf6" id="adf6" class="graf graf--p graf-after--p">The next step was to animate those properties so that my element looked like it was being flipped. In fact, that process needs two elements — #front and #back, to represent each side of an imaginary piece of card that’s being flipped. The #front starts life visible, while #back is hidden and transformed into a rotated, squashed version of itself.</p><p name="bb62" id="bb62" class="graf graf--p graf-after--p">To flip the ‘card’, we just need to reduce the x-axis scale of #front, while rotating it. Once the scale is reduced to a slither, we do the opposite transformation on #back. You can see this in action using jQuery’s animate() function <a href="http://jsfiddle.net/PmMSV/2/" data-href="http://jsfiddle.net/PmMSV/2/" class="markup--anchor markup--p-anchor" rel="noopener" target="_blank">here</a>, or embedded below –</p><p name="8b13" id="8b13" class="graf graf--p graf-after--p graf--trailing"><a href="http://jsfiddle.net/PmMSV/3/embedded/" data-href="http://jsfiddle.net/PmMSV/3/embedded/" class="markup--anchor markup--p-anchor" rel="noopener" target="_blank">http://jsfiddle.net/PmMSV/3/embedded/</a></p></div></div></section><section name="d2b8" class="section section--body section--last"><div class="section-divider"><hr class="section-divider"></div><div class="section-content"><div class="section-inner sectionLayout--insetColumn"><p name="1f55" id="1f55" class="graf graf--p graf--leading graf--trailing"><em class="markup--em markup--p-em">Originally published at </em><a href="https://jezhalford.com/2012/06/07/see-you-on-the-flip-side/" data-href="https://jezhalford.com/2012/06/07/see-you-on-the-flip-side/" class="markup--anchor markup--p-anchor" rel="noopener" target="_blank"><em class="markup--em markup--p-em">jezhalford.com</em></a><em class="markup--em markup--p-em"> on June 7, 2012.</em></p></div></div></section>
+</section>
+<footer><p>By <a href="https://medium.com/@jezhalford" class="p-author h-card">Jez Halford</a> on <a href="https://medium.com/p/e0697b3ef0c4"><time class="dt-published" datetime="2012-06-07T06:48:47.000Z">June 7, 2012</time></a>.</p><p><a href="https://medium.com/@jezhalford/see-you-on-the-flip-side-e0697b3ef0c4" class="p-canonical">Canonical link</a></p><p>Exported from <a href="https://medium.com">Medium</a> on March 18, 2019.</p></footer></article></body></html>

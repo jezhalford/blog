@@ -1,0 +1,72 @@
+<!DOCTYPE html><html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"><title>Seven Deadly Wastes: Bugs</title><style>
+      * {
+        font-family: Georgia, Cambria, "Times New Roman", Times, serif;
+      }
+      html, body {
+        margin: 0;
+        padding: 0;
+      }
+      h1 {
+        font-size: 50px;
+        margin-bottom: 17px;
+        color: #333;
+      }
+      h2 {
+        font-size: 24px;
+        line-height: 1.6;
+        margin: 30px 0 0 0;
+        margin-bottom: 18px;
+        margin-top: 33px;
+        color: #333;
+      }
+      h3 {
+        font-size: 30px;
+        margin: 10px 0 20px 0;
+        color: #333;
+      }
+      header {
+        width: 640px;
+        margin: auto;
+      }
+      section {
+        width: 640px;
+        margin: auto;
+      }
+      section p {
+        margin-bottom: 27px;
+        font-size: 20px;
+        line-height: 1.6;
+        color: #333;
+      }
+      section img {
+        max-width: 640px;
+      }
+      footer {
+        padding: 0 20px;
+        margin: 50px 0;
+        text-align: center;
+        font-size: 12px;
+      }
+      .aspectRatioPlaceholder {
+        max-width: auto !important;
+        max-height: auto !important;
+      }
+      .aspectRatioPlaceholder-fill {
+        padding-bottom: 0 !important;
+      }
+      header,
+      section[data-field=subtitle],
+      section[data-field=description] {
+        display: none;
+      }
+      </style></head><body><article class="h-entry">
+<header>
+<h1 class="p-name">Seven Deadly Wastes: Bugs</h1>
+</header>
+<section data-field="subtitle" class="p-summary">
+Going Faster: Issue 17
+</section>
+<section data-field="body" class="e-content">
+<section name="f357" class="section section--body section--first"><div class="section-divider"><hr class="section-divider"></div><div class="section-content"><div class="section-inner sectionLayout--insetColumn"><h3 name="13b1" id="13b1" class="graf graf--h3 graf--leading graf--title">Seven Deadly Wastes: Bugs</h3><h4 name="c62e" id="c62e" class="graf graf--h4 graf-after--h3 graf--subtitle">Going Faster: Issue 17</h4></div><div class="section-inner sectionLayout--fullWidth"><figure name="95f5" id="95f5" class="graf graf--figure graf--layoutFillWidth graf-after--h4"><div class="aspectRatioPlaceholder is-locked"><div class="aspectRatioPlaceholder-fill" style="padding-bottom: 66.60000000000001%;"></div><img class="graf-image" data-image-id="0*n8ef0p41RCyAixJY.jpg" data-width="1280" data-height="853" src="https://cdn-images-1.medium.com/max/2560/0*n8ef0p41RCyAixJY.jpg"></div></figure></div><div class="section-inner sectionLayout--insetColumn"><p name="abdf" id="abdf" class="graf graf--p graf-after--figure"><em class="markup--em markup--p-em">The Seven Wastes are an idea from </em><a href="https://en.wikipedia.org/wiki/Muda_%28Japanese_term%29#Seven_wastes" data-href="https://en.wikipedia.org/wiki/Muda_(Japanese_term)#Seven_wastes" class="markup--anchor markup--p-anchor" rel="nofollow noopener nofollow noopener nofollow noopener nofollow noopener nofollow noopener noopener" target="_blank"><em class="markup--em markup--p-em">lean manufacturing</em></a><em class="markup--em markup--p-em">, and I’m exploring how they relate to software development. Last time was </em><a href="https://medium.com/going-faster/seven-deadly-wastes-over-production-e21731f44358" data-href="https://medium.com/going-faster/seven-deadly-wastes-over-production-e21731f44358" class="markup--anchor markup--p-anchor" target="_blank"><em class="markup--em markup--p-em">over production</em></a><em class="markup--em markup--p-em">, and this week I’m looking at the last one: </em><strong class="markup--strong markup--p-strong"><em class="markup--em markup--p-em">defects</em></strong><em class="markup--em markup--p-em">.</em></p><p name="2b8c" id="2b8c" class="graf graf--p graf-after--p">It’s no great revelation to say that bugs slow us down, but they might slow us down more than you realise.</p><p name="5066" id="5066" class="graf graf--p graf-after--p">Say we catch a major defect during the final testing of a new feature, just before it’s due to be released. We all pat each other on the back — thank goodness we caught that! Good job everybody!</p><p name="acd6" id="acd6" class="graf graf--p graf-after--p">But now we have to rework the feature to remove the bug. Effectively, we’re back at the start. We need to go back and modify our code, test our feature (more effectively this time), run through any acceptance tests and whatever else we might do. If we’re unlucky we’ve also pushed our schedule back a bit too.</p><p name="e915" id="e915" class="graf graf--p graf-after--p">The point here is that as soon as a defect leaves a developer’s laptop and finds its way into our usual code pipeline, it is slowing us down. And the later in that pipeline we find it, the more delay it has the potential to cause.</p><p name="6436" id="6436" class="graf graf--p graf-after--p">This is the reason we have things like test driven development — to ensure we catch the bug before pushing code. Then we might have a CI server that runs a more thorough test suit — another layer of safety net to catch the more tricky problems. Then we might have a more involved QA process, or some other phases or processes that try to reduce defects.</p><p name="5213" id="5213" class="graf graf--p graf-after--p">What these things don’t address, though, is the worst kind of bug. The kind that the programmer doesn’t realise is a bug. The kind that arises from a difference of understanding. I interpret a requirement one way, someone else interprets it another. Now we have, in one persons opinion at least, a defect.</p><p name="4b91" id="4b91" class="graf graf--p graf-after--p">These bugs have the biggest potential to slow us down, because they can make it all the way through even the most thorough testing.</p><p name="7d69" id="7d69" class="graf graf--p graf-after--p">Avoiding this kind of defect should be the whole team’s priority. And the best way to avoid them is to talk! Build shared understanding, try pair programming, use techniques like BDD and <a href="https://jennyjmar.com/2016/04/16/bdd-discovery-and-oopsi/" data-href="https://jennyjmar.com/2016/04/16/bdd-discovery-and-oopsi/" class="markup--anchor markup--p-anchor" rel="noopener" target="_blank">OOPSI</a> to get everyone on the same page.</p><p name="85b1" id="85b1" class="graf graf--p graf-after--p graf--trailing">Layers of testing can go a long way, but talking it through as a team is often the most effective way of building in quality.</p></div></div></section><section name="c311" class="section section--body section--last"><div class="section-divider"><hr class="section-divider"></div><div class="section-content"><div class="section-inner sectionLayout--insetColumn"><p name="cfea" id="cfea" class="graf graf--p graf--leading"><em class="markup--em markup--p-em">Going Faster: Weekly ideas on speeding up your software team by Jez Halford, a software development consultant helping teams to deliver better software more quickly.</em></p><p name="97c7" id="97c7" class="graf graf--p graf-after--p graf--trailing"><em class="markup--em markup--p-em">There’s more from Jez on </em><a href="https://twitter.com/jezhalford" data-href="https://twitter.com/jezhalford" class="markup--anchor markup--p-anchor" rel="noopener nofollow nofollow noopener nofollow noopener nofollow noopener nofollow noopener nofollow noopener nofollow noopener nofollow noopener nofollow noopener noopener" target="_blank"><em class="markup--em markup--p-em">Twitter</em></a><em class="markup--em markup--p-em">, </em><a href="https://medium.com/@jezhalford" data-href="https://medium.com/@jezhalford" class="markup--anchor markup--p-anchor" rel="noopener nofollow" target="_blank"><em class="markup--em markup--p-em">Medium </em></a><em class="markup--em markup--p-em">and </em><a href="https://jezhalford.com/" data-href="https://jezhalford.com/" class="markup--anchor markup--p-anchor" rel="noopener nofollow nofollow noopener nofollow noopener nofollow noopener nofollow noopener nofollow noopener nofollow noopener nofollow noopener nofollow noopener noopener" target="_blank"><em class="markup--em markup--p-em">jezhalford.com</em></a></p></div></div></section>
+</section>
+<footer><p>By <a href="https://medium.com/@jezhalford" class="p-author h-card">Jez Halford</a> on <a href="https://medium.com/p/ff1f9d418b4c"><time class="dt-published" datetime="2017-12-11T10:00:23.113Z">December 11, 2017</time></a>.</p><p><a href="https://medium.com/@jezhalford/seven-deadly-wastes-bugs-ff1f9d418b4c" class="p-canonical">Canonical link</a></p><p>Exported from <a href="https://medium.com">Medium</a> on March 18, 2019.</p></footer></article></body></html>

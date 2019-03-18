@@ -1,0 +1,72 @@
+<!DOCTYPE html><html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"><title>Issue 1: Communication Breakdown</title><style>
+      * {
+        font-family: Georgia, Cambria, "Times New Roman", Times, serif;
+      }
+      html, body {
+        margin: 0;
+        padding: 0;
+      }
+      h1 {
+        font-size: 50px;
+        margin-bottom: 17px;
+        color: #333;
+      }
+      h2 {
+        font-size: 24px;
+        line-height: 1.6;
+        margin: 30px 0 0 0;
+        margin-bottom: 18px;
+        margin-top: 33px;
+        color: #333;
+      }
+      h3 {
+        font-size: 30px;
+        margin: 10px 0 20px 0;
+        color: #333;
+      }
+      header {
+        width: 640px;
+        margin: auto;
+      }
+      section {
+        width: 640px;
+        margin: auto;
+      }
+      section p {
+        margin-bottom: 27px;
+        font-size: 20px;
+        line-height: 1.6;
+        color: #333;
+      }
+      section img {
+        max-width: 640px;
+      }
+      footer {
+        padding: 0 20px;
+        margin: 50px 0;
+        text-align: center;
+        font-size: 12px;
+      }
+      .aspectRatioPlaceholder {
+        max-width: auto !important;
+        max-height: auto !important;
+      }
+      .aspectRatioPlaceholder-fill {
+        padding-bottom: 0 !important;
+      }
+      header,
+      section[data-field=subtitle],
+      section[data-field=description] {
+        display: none;
+      }
+      </style></head><body><article class="h-entry">
+<header>
+<h1 class="p-name">Issue 1: Communication Breakdown</h1>
+</header>
+<section data-field="subtitle" class="p-summary">
+Hello!
+</section>
+<section data-field="body" class="e-content">
+<section name="30ef" class="section section--body section--first"><div class="section-divider"><hr class="section-divider"></div><div class="section-content"><div class="section-inner sectionLayout--insetColumn"><h3 name="6fa4" id="6fa4" class="graf graf--h3 graf--leading graf--title">Issue 1: Communication Breakdown</h3><p name="9853" id="9853" class="graf graf--p graf-after--h3">Hello!</p><p name="449e" id="449e" class="graf graf--p graf-after--p">Welcome to issue one, and thanks for being here from the start.</p><p name="0803" id="0803" class="graf graf--p graf-after--p">I thought I’d start with communication. Specifically, the goal of building shared understanding. If you have a team of more than one, then you need to spend time making sure everyone is on the same page. I’m going to assume you have someone in a product role of some sort, who comes up with what needs to be built, and then you probably have developers, and then testers who confirm that the developer did something approaching what was required.</p><p name="7406" id="7406" class="graf graf--p graf-after--p">In order to not have a disaster (and therefore to deliver quickly), all these people need to be on the same page, and this is the thinking behind the three amigos meetings advocated by various agile types. But there’s probably more to it. User stories have been the go-to solution to building shared understanding for a while now. As a writer I want to send newsletters so that people will like me, for example.</p><h4 name="3288" id="3288" class="graf graf--h4 graf-after--p">Oops</h4><p name="a198" id="a198" class="graf graf--p graf-after--h4">Recently I learned about an alternative known as <a href="https://jennyjmar.com/2016/04/16/bdd-discovery-and-oopsi/" data-href="https://jennyjmar.com/2016/04/16/bdd-discovery-and-oopsi/" class="markup--anchor markup--p-anchor" rel="noopener" target="_blank">OOPSI</a>. OOPSI breaks a requirement down into <em class="markup--em markup--p-em">Outcomes, Outputs, Process, Scenarios</em> and <em class="markup--em markup--p-em">Inputs</em>. A simple example -</p><blockquote name="0cf1" id="0cf1" class="graf graf--blockquote graf-after--p"><strong class="markup--strong markup--blockquote-strong"><em class="markup--em markup--blockquote-em">Outcome:</em></strong><em class="markup--em markup--blockquote-em"> I’ve sent a newsletter and am delighted<br></em><strong class="markup--strong markup--blockquote-strong"><em class="markup--em markup--blockquote-em">Output:</em></strong><em class="markup--em markup--blockquote-em"> A series of identical emails to everyone on my subscriber list<br></em><strong class="markup--strong markup--blockquote-strong"><em class="markup--em markup--blockquote-em">Process:</em></strong><em class="markup--em markup--blockquote-em"> I log in, write the email in an editor and press send. The system dispatches one copy of the email to each subscriber.<br></em><strong class="markup--strong markup--blockquote-strong"><em class="markup--em markup--blockquote-em">Inputs:</em></strong><em class="markup--em markup--blockquote-em"> An email with a subject and a body.</em></blockquote><p name="06e0" id="06e0" class="graf graf--p graf-after--blockquote">I think that’s a pretty clear description of what the tool I’m using to send this to you does. I could probably even have a stab at building it based on that information. Happily, I haven’t had to get bogged down with “As an X I want to Y” nonsense, because I already know that I want a newsletter tool. Chances are your team already has a pretty good high-level idea of what they’re building too. It’s just understanding the specifics that need to be worked on.</p><p name="7656" id="7656" class="graf graf--p graf-after--p">The <em class="markup--em markup--p-em">Outputs</em> section is also a great place to put things like wireframes and UX stuff. After all, the interface I’m using is an output of the system. <em class="markup--em markup--p-em">Process </em>can also be augmented with flowcharts, diagrams, or anything else that helps. And the <em class="markup--em markup--p-em">Inputs </em>can be a great place to store specific test cases.</p><h4 name="22ea" id="22ea" class="graf graf--h4 graf-after--p">Exemplary</h4><p name="f3ab" id="f3ab" class="graf graf--p graf-after--h4">While we’re building shared understanding, I can also recommend the technique of <a href="https://cucumber.io/blog/2015/12/08/example-mapping-introduction" data-href="https://cucumber.io/blog/2015/12/08/example-mapping-introduction" class="markup--anchor markup--p-anchor" rel="noopener" target="_blank">Example Mapping</a>. It’s a really powerful way to tease out edge cases and test assumptions. You should probably read the blog post I’ve linked to, but in summary — write your high-level stories as<em class="markup--em markup--p-em"> Given, When, Thens</em>. Then add to them with “The one where…” scenarios underneath.</p><blockquote name="1c05" id="1c05" class="graf graf--blockquote graf-after--p"><strong class="markup--strong markup--blockquote-strong"><em class="markup--em markup--blockquote-em">GIVEN </em></strong><em class="markup--em markup--blockquote-em">I am logged in and on the Write a letter screen<br></em><strong class="markup--strong markup--blockquote-strong"><em class="markup--em markup--blockquote-em">WHEN </em></strong><em class="markup--em markup--blockquote-em">I click send<br></em><strong class="markup--strong markup--blockquote-strong"><em class="markup--em markup--blockquote-em">THEN </em></strong><em class="markup--em markup--blockquote-em">the system should send my email to all my subscribers</em></blockquote><blockquote name="df2b" id="df2b" class="graf graf--blockquote graf-after--blockquote"><strong class="markup--strong markup--blockquote-strong"><em class="markup--em markup--blockquote-em">WHERE </em></strong><em class="markup--em markup--blockquote-em">my email is blank, show an error<br></em><strong class="markup--strong markup--blockquote-strong"><em class="markup--em markup--blockquote-em">WHERE </em></strong><em class="markup--em markup--blockquote-em">I have no subscribers, show an error<br></em><strong class="markup--strong markup--blockquote-strong"><em class="markup--em markup--blockquote-em">WHERE </em></strong><em class="markup--em markup--blockquote-em">I have a premium subscription, run a spell check</em></blockquote><p name="09ac" id="09ac" class="graf graf--p graf-after--blockquote">…and so on. The power of the technique lies in writing all that down on coloured index cards and arranging them on a table. Then you can immediately see if a feature is too complicated (too many WHEREs) or if it is too broad (too many GIVEN, WHEN, THENs). It works incredibly well, and again provides really useful input to your testers in the form of all those edge cases.</p><p name="e354" id="e354" class="graf graf--p graf-after--p">Communication needn’t stop there, though. Daily standups are a key form of communication for any software team. How do you do yours? Is it working as well as it could? There are loads of ideas in <a href="https://martinfowler.com/articles/itsNotJustStandingUp.html" data-href="https://martinfowler.com/articles/itsNotJustStandingUp.html" class="markup--anchor markup--p-anchor" rel="noopener" target="_blank">this post</a> on Martin Fowler’s website about how standups can be improved. For example, do you ask the typical three questions? (What did you do yesterday? What are you doing today? Are you blocked?). Maybe you should ask those in the reverse order. After all, aren’t blockers your priority? There are loads of other ideas to explore.</p><h4 name="6096" id="6096" class="graf graf--h4 graf-after--p">Spectrum</h4><p name="5a3b" id="5a3b" class="graf graf--p graf-after--h4">Finally, I want to suggest you think about the <a href="https://hackernoon.com/the-communication-spectrum-getting-people-on-your-wavelength-37e99299f96b" data-href="https://hackernoon.com/the-communication-spectrum-getting-people-on-your-wavelength-37e99299f96b" class="markup--anchor markup--p-anchor" rel="noopener" target="_blank">Communication Spectrum</a>. How important is the message you want to put across? Should it go on a TV screen, or a whiteboard, or an email, or a website, or a slack message, or should you yell it across the office? Often we resort to just one method for everything, either causing useless interruptions or allowing important news to get missed. It’s worth a bit more thought to get your point across in the best way.</p><p name="e7a9" id="e7a9" class="graf graf--p graf-after--p">That’s all for this week! There’s always my <a href="https://medium.com/@jezhalford" data-href="https://medium.com/@jezhalford" class="markup--anchor markup--p-anchor" target="_blank">blog</a>, if you still need something to read.</p><p name="16a3" id="16a3" class="graf graf--p graf-after--p graf--trailing">Jez</p></div></div></section><section name="9c29" class="section section--body section--last"><div class="section-divider"><hr class="section-divider"></div><div class="section-content"><div class="section-inner sectionLayout--insetColumn"><blockquote name="c2ea" id="c2ea" class="graf graf--pullquote graf--leading graf--trailing">Going Faster: Weekly tips for speeding up your software team.</blockquote></div></div></section>
+</section>
+<footer><p>By <a href="https://medium.com/@jezhalford" class="p-author h-card">Jez Halford</a> on <a href="https://medium.com/p/1a39162bdf27"><time class="dt-published" datetime="2017-07-10T11:57:43.442Z">July 10, 2017</time></a>.</p><p><a href="https://medium.com/@jezhalford/issue-1-communication-breakdown-1a39162bdf27" class="p-canonical">Canonical link</a></p><p>Exported from <a href="https://medium.com">Medium</a> on March 18, 2019.</p></footer></article></body></html>

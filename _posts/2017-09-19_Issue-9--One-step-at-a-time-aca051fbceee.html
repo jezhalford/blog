@@ -1,0 +1,72 @@
+<!DOCTYPE html><html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"><title>Issue 9: One step at a time</title><style>
+      * {
+        font-family: Georgia, Cambria, "Times New Roman", Times, serif;
+      }
+      html, body {
+        margin: 0;
+        padding: 0;
+      }
+      h1 {
+        font-size: 50px;
+        margin-bottom: 17px;
+        color: #333;
+      }
+      h2 {
+        font-size: 24px;
+        line-height: 1.6;
+        margin: 30px 0 0 0;
+        margin-bottom: 18px;
+        margin-top: 33px;
+        color: #333;
+      }
+      h3 {
+        font-size: 30px;
+        margin: 10px 0 20px 0;
+        color: #333;
+      }
+      header {
+        width: 640px;
+        margin: auto;
+      }
+      section {
+        width: 640px;
+        margin: auto;
+      }
+      section p {
+        margin-bottom: 27px;
+        font-size: 20px;
+        line-height: 1.6;
+        color: #333;
+      }
+      section img {
+        max-width: 640px;
+      }
+      footer {
+        padding: 0 20px;
+        margin: 50px 0;
+        text-align: center;
+        font-size: 12px;
+      }
+      .aspectRatioPlaceholder {
+        max-width: auto !important;
+        max-height: auto !important;
+      }
+      .aspectRatioPlaceholder-fill {
+        padding-bottom: 0 !important;
+      }
+      header,
+      section[data-field=subtitle],
+      section[data-field=description] {
+        display: none;
+      }
+      </style></head><body><article class="h-entry">
+<header>
+<h1 class="p-name">Issue 9: One step at a time</h1>
+</header>
+<section data-field="subtitle" class="p-summary">
+I think building software is much more about how we move a system from one state to the next than many of us realise. When we write a new…
+</section>
+<section data-field="body" class="e-content">
+<section name="2291" class="section section--body section--first"><div class="section-divider"><hr class="section-divider"></div><div class="section-content"><div class="section-inner sectionLayout--insetColumn"><h3 name="5325" id="5325" class="graf graf--h3 graf--leading graf--title">Issue 9: One step at a time</h3></div><div class="section-inner sectionLayout--fullWidth"><figure name="9e7a" id="9e7a" class="graf graf--figure graf--layoutFillWidth graf-after--h3"><div class="aspectRatioPlaceholder is-locked"><div class="aspectRatioPlaceholder-fill" style="padding-bottom: 77.60000000000001%;"></div><img class="graf-image" data-image-id="0*l_fHmaH269ARzJXe.jpg" data-width="2000" data-height="1552" src="https://cdn-images-1.medium.com/max/2560/0*l_fHmaH269ARzJXe.jpg"></div></figure></div><div class="section-inner sectionLayout--insetColumn"><p name="397d" id="397d" class="graf graf--p graf-after--figure">I think building software is much more about how we move a system from one state to the next than many of us realise. When we write a new feature, we check out our code, modify it, and then build a new version of the software that incorporates our changes. It’s tempting, therefore, to think of our software as a series of still images, jumping from one snapshot to the next as we make changes.</p><p name="c564" id="c564" class="graf graf--p graf-after--p">But we’re never building isolated snapshots. We’re always moving from one picture to the next. We have users, data and state that needs to maintained between releases, and that means we need to put some thought into the process we’ll have to go through to move our software into its new shape.</p><p name="4014" id="4014" class="graf graf--p graf-after--p">How often have you experienced a change that was made to your codebase, worked fine in testing, and then blew up spectacularly once it reached production? Often this kind of problem can be attributed to a lack of understanding of the state of the system in production.</p><p name="3a08" id="3a08" class="graf graf--p graf-after--p">The most common area where developers may have to confront this is database migrations. These by their nature are always changes rather than snapshots. Drop that column, create this table; our migrations are instructions for moving us from one state to the next. I find it helpful, though, to think of every aspect of every change in the same way. It’s the developers job not simply to write how the code should be, but to consider exactly how to get it there.</p><p name="2a65" id="2a65" class="graf graf--p graf-after--p">I try to think of each change as a patch: a set of changes that will take us from one situation to another. Do we need to clear a cache? Are we installing new packages? Is it necessary to restart some services? How will this affect our users at the moment it is released? It can be tempting to dismiss these problems as the domain of our release process, either automated away or frustratingly worked-through by the unlucky sole who must perform a manual release.</p><p name="1f3e" id="1f3e" class="graf graf--p graf-after--p">Once we embrace this kind of patchy thinking, though, we start to get better at it. Maybe we don’t need to flush a cache every time we release? Wouldn’t our users have a better experience if we could do at least some of our releases without downtime? Once you’re used to thinking in this way, it starts to become easier to deliver smaller and smaller units of work.</p><p name="5055" id="5055" class="graf graf--p graf-after--p">Consider a typical new feature that someone might want to build. It might need a new database table, plus some new API endpoints for our front-end to talk to, and then a new set of user access controls, and new user interface elements to use the feature. It’s easy to build all of that in one go, and then release it.</p><p name="499a" id="499a" class="graf graf--p graf-after--p">But consider how we might deliver that feature across several small releases. First we add the new table. Next we build and release the new API endpoints, perhaps one at a time. Now we configure new access rules, disallowing all but internal users. Next we push out the new UI and finally we enable access to the feature for our users.</p><p name="c611" id="c611" class="graf graf--p graf-after--p">By working this way, we dramatically reduce the risk involved in each release. We no longer need to cross our fingers and hope it works, because we can build confidence in the system’s stability during the course of building the feature.</p><p name="d86e" id="d86e" class="graf graf--p graf-after--p graf--trailing">This is an idealised scenario, of course. Sometimes you need to make changes to existing features, or manipulate data in a way that’s not safe to do without downtime. But even if we only build a small percentage of our features this way, we’re still chipping away at the risk of big releases.</p></div></div></section><section name="853a" class="section section--body section--last"><div class="section-divider"><hr class="section-divider"></div><div class="section-content"><div class="section-inner sectionLayout--insetColumn"><p name="f363" id="f363" class="graf graf--p graf--leading"><em class="markup--em markup--p-em">Going Faster: Weekly ideas on speeding up your software team by Jez Halford, a software development consultant helping teams to deliver better software more quickly.</em></p><p name="ab66" id="ab66" class="graf graf--p graf-after--p graf--trailing"><em class="markup--em markup--p-em">There’s more from Jez on </em><a href="https://twitter.com/jezhalford" data-href="https://twitter.com/jezhalford" class="markup--anchor markup--p-anchor" rel="noopener nofollow nofollow noopener nofollow noopener noopener" target="_blank"><em class="markup--em markup--p-em">Twitter</em></a><em class="markup--em markup--p-em">, </em><a href="https://medium.com/@jezhalford" data-href="https://medium.com/@jezhalford" class="markup--anchor markup--p-anchor" rel="noopener nofollow" target="_blank"><em class="markup--em markup--p-em">Medium </em></a><em class="markup--em markup--p-em">and </em><a href="https://jezhalford.com/" data-href="https://jezhalford.com/" class="markup--anchor markup--p-anchor" rel="noopener nofollow nofollow noopener nofollow noopener noopener" target="_blank"><em class="markup--em markup--p-em">jezhalford.com</em></a></p></div></div></section>
+</section>
+<footer><p>By <a href="https://medium.com/@jezhalford" class="p-author h-card">Jez Halford</a> on <a href="https://medium.com/p/aca051fbceee"><time class="dt-published" datetime="2017-09-19T10:28:39.255Z">September 19, 2017</time></a>.</p><p><a href="https://medium.com/@jezhalford/issue-9-one-step-at-a-time-aca051fbceee" class="p-canonical">Canonical link</a></p><p>Exported from <a href="https://medium.com">Medium</a> on March 18, 2019.</p></footer></article></body></html>

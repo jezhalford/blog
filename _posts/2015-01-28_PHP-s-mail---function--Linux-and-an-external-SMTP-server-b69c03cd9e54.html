@@ -1,0 +1,69 @@
+<!DOCTYPE html><html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"><title>PHP’s mail() function, Linux and an external SMTP server</title><style>
+      * {
+        font-family: Georgia, Cambria, "Times New Roman", Times, serif;
+      }
+      html, body {
+        margin: 0;
+        padding: 0;
+      }
+      h1 {
+        font-size: 50px;
+        margin-bottom: 17px;
+        color: #333;
+      }
+      h2 {
+        font-size: 24px;
+        line-height: 1.6;
+        margin: 30px 0 0 0;
+        margin-bottom: 18px;
+        margin-top: 33px;
+        color: #333;
+      }
+      h3 {
+        font-size: 30px;
+        margin: 10px 0 20px 0;
+        color: #333;
+      }
+      header {
+        width: 640px;
+        margin: auto;
+      }
+      section {
+        width: 640px;
+        margin: auto;
+      }
+      section p {
+        margin-bottom: 27px;
+        font-size: 20px;
+        line-height: 1.6;
+        color: #333;
+      }
+      section img {
+        max-width: 640px;
+      }
+      footer {
+        padding: 0 20px;
+        margin: 50px 0;
+        text-align: center;
+        font-size: 12px;
+      }
+      .aspectRatioPlaceholder {
+        max-width: auto !important;
+        max-height: auto !important;
+      }
+      .aspectRatioPlaceholder-fill {
+        padding-bottom: 0 !important;
+      }
+      header,
+      section[data-field=subtitle],
+      section[data-field=description] {
+        display: none;
+      }
+      </style></head><body><article class="h-entry">
+<header>
+<h1 class="p-name">PHP’s mail() function, Linux and an external SMTP server</h1>
+</header>
+<section data-field="body" class="e-content">
+<section name="0b36" class="section section--body section--first"><div class="section-divider"><hr class="section-divider"></div><div class="section-content"><div class="section-inner sectionLayout--insetColumn"><h3 name="28f5" id="28f5" class="graf graf--h3 graf--leading graf--title">PHP’s mail() function, Linux and an external SMTP server</h3><p name="32df" id="32df" class="graf graf--p graf-after--h3">If you find yourself needing to move some PHP code from Windows to Linux, you might become disappointed when you come to look at the mail() function. In Windows, you can specify an external SMTP server in your php.ini, and the mail() function will send all your email over to that for delivery. In Linux, things aren’t so simple. Fortunately, there is a relatively simple solution.</p><p name="db11" id="db11" class="graf graf--p graf-after--p">The usual advice for those wishing to send email from PHP is to avoid the mail() function entirely and use one of the many excellent libraries instead — <a href="http://swiftmailer.org/" data-href="http://swiftmailer.org/" class="markup--anchor markup--p-anchor" rel="noopener" target="_blank">Swiftmailer</a> is a good choice. But what if you’re in the unusual position of having a big chunk of legacy code to and no time to deal with it?</p><p name="8660" id="8660" class="graf graf--p graf-after--p">Enter <a href="http://msmtp.sourceforge.net/" data-href="http://msmtp.sourceforge.net/" class="markup--anchor markup--p-anchor" rel="noopener" target="_blank">msmtp</a>. It’s a nice, stable tool that speaks the same language as <em class="markup--em markup--p-em">sendmail</em>, which is what PHP on Linux expects you to use if you’re doing this properly. No one is going to suggest you do that, though.</p><p name="5da5" id="5da5" class="graf graf--p graf-after--p">Instead, assuming you have an SMTP server standing by that’s ready to go, you can try this –</p><pre name="3fae" id="3fae" class="graf graf--pre graf-after--p">sudo apt-get install msmtp</pre><p name="4c3b" id="4c3b" class="graf graf--p graf-after--pre">Next, create a config file for msmtp to use –</p><pre name="7ecd" id="7ecd" class="graf graf--pre graf-after--p">sudo nano /etc/msmtp_php</pre><p name="8930" id="8930" class="graf graf--p graf-after--pre">Add the following –</p><pre name="7a65" id="7a65" class="graf graf--pre graf-after--p">defaults syslog on account my_external_smtp host my.smtp.example.com port 25 from webmaster@example.com auth off account default : my_external_smtp</pre><p name="799f" id="799f" class="graf graf--p graf-after--pre">Now set some permissions –</p><pre name="9f3a" id="9f3a" class="graf graf--pre graf-after--p">sudo chmod 600 /etc/msmtp_php sudo chown www-data:www-data /etc/msmtp_php</pre><p name="38d8" id="38d8" class="graf graf--p graf-after--pre">Open your php.ini and find the line that starts –</p><pre name="3db7" id="3db7" class="graf graf--pre graf-after--p">;sendmail_path =</pre><p name="8021" id="8021" class="graf graf--p graf-after--pre">and change it to –</p><pre name="8d33" id="8d33" class="graf graf--pre graf-after--p">sendmail_path = &quot;/usr/bin/msmtp -C /etc/msmtp_php -a my_external_smtp -t&quot;</pre><p name="dcee" id="dcee" class="graf graf--p graf-after--pre">Finally, restart Apache or FPM or whatever you’re running PHP with.</p><p name="5369" id="5369" class="graf graf--p graf-after--p graf--trailing">That should be it! You can now use mail() again. If you’re in the slightly more complicated situation of having an SMTP server that requires TLS, authentication or both, there’s some really useful advice at <a href="http://freebsd.hypermart.net/msmtp.html" data-href="http://freebsd.hypermart.net/msmtp.html" class="markup--anchor markup--p-anchor" rel="noopener" target="_blank">http://freebsd.hypermart.net/msmtp.html</a>. It should just be a case of modifying your /etc/msmtp_php file.</p></div></div></section><section name="d2ef" class="section section--body section--last"><div class="section-divider"><hr class="section-divider"></div><div class="section-content"><div class="section-inner sectionLayout--insetColumn"><p name="0425" id="0425" class="graf graf--p graf--leading graf--trailing"><em class="markup--em markup--p-em">Originally published at </em><a href="https://jezhalford.com/2015/01/28/php-mail-function-linux-and-an-external-smtp-server/" data-href="https://jezhalford.com/2015/01/28/php-mail-function-linux-and-an-external-smtp-server/" class="markup--anchor markup--p-anchor" rel="noopener" target="_blank"><em class="markup--em markup--p-em">jezhalford.com</em></a><em class="markup--em markup--p-em"> on January 28, 2015.</em></p></div></div></section>
+</section>
+<footer><p>By <a href="https://medium.com/@jezhalford" class="p-author h-card">Jez Halford</a> on <a href="https://medium.com/p/b69c03cd9e54"><time class="dt-published" datetime="2015-01-28T16:09:48.000Z">January 28, 2015</time></a>.</p><p><a href="https://medium.com/@jezhalford/phps-mail-function-linux-and-an-external-smtp-server-b69c03cd9e54" class="p-canonical">Canonical link</a></p><p>Exported from <a href="https://medium.com">Medium</a> on March 18, 2019.</p></footer></article></body></html>

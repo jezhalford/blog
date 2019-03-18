@@ -1,0 +1,69 @@
+<!DOCTYPE html><html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"><title>Kanban: Avoiding going backwards</title><style>
+      * {
+        font-family: Georgia, Cambria, "Times New Roman", Times, serif;
+      }
+      html, body {
+        margin: 0;
+        padding: 0;
+      }
+      h1 {
+        font-size: 50px;
+        margin-bottom: 17px;
+        color: #333;
+      }
+      h2 {
+        font-size: 24px;
+        line-height: 1.6;
+        margin: 30px 0 0 0;
+        margin-bottom: 18px;
+        margin-top: 33px;
+        color: #333;
+      }
+      h3 {
+        font-size: 30px;
+        margin: 10px 0 20px 0;
+        color: #333;
+      }
+      header {
+        width: 640px;
+        margin: auto;
+      }
+      section {
+        width: 640px;
+        margin: auto;
+      }
+      section p {
+        margin-bottom: 27px;
+        font-size: 20px;
+        line-height: 1.6;
+        color: #333;
+      }
+      section img {
+        max-width: 640px;
+      }
+      footer {
+        padding: 0 20px;
+        margin: 50px 0;
+        text-align: center;
+        font-size: 12px;
+      }
+      .aspectRatioPlaceholder {
+        max-width: auto !important;
+        max-height: auto !important;
+      }
+      .aspectRatioPlaceholder-fill {
+        padding-bottom: 0 !important;
+      }
+      header,
+      section[data-field=subtitle],
+      section[data-field=description] {
+        display: none;
+      }
+      </style></head><body><article class="h-entry">
+<header>
+<h1 class="p-name">Kanban: Avoiding going backwards</h1>
+</header>
+<section data-field="body" class="e-content">
+<section name="6b69" class="section section--body section--first"><div class="section-divider"><hr class="section-divider"></div><div class="section-content"><div class="section-inner sectionLayout--insetColumn"><h3 name="d4d2" id="d4d2" class="graf graf--h3 graf--leading graf--title">Kanban: Avoiding going backwards</h3><p name="2ee7" id="2ee7" class="graf graf--p graf-after--h3">Tickets on a Kanban board should ideally move left-to-right in a smooth progression. Sometimes, however, a ticket will fail to pass a given stage. Probably the most common reason for this is a tester identifying a problem with a feature during your QA phase. Let’s call these sorts of problems “stage failures”.</p><p name="f591" id="f591" class="graf graf--p graf-after--p">So, what should happen when we have a stage failure? It can be tempting to move the ticket backwards into your “in development” column for the original developer to continue work.</p><p name="396d" id="396d" class="graf graf--p graf-after--p">However, this often has the effect of hiding the fact that there was problem. A casual observer of the board would not know whether or not that item had been moved backwards, so the amount of effort being expended on the ticket is hidden. Many teams try to get around this issue by marking such tickets in some way — a red blob each time it moves back is typical. This may seem to resolve the problem, but it actually removes the usefulness of one of Kanban’s best features.</p><p name="3991" id="3991" class="graf graf--p graf-after--p">By moving tickets backwards, potentially several times, a troublesome ticket may never get the attention it deserves. It would eventually be possible to enter a state where <em class="markup--em markup--p-em">every</em> ticket on the board is simply moving backwards and forwards, without anything really being produced. Tickets in this state are stuck in a loop that they may never exit, and red blobs will really only act as a sort of “permission slip” to excuse the team from considering this to be a problem.</p><p name="6a47" id="6a47" class="graf graf--p graf-after--p">For this reason, I would always suggest that QA failures, poor code review results or any other reason one might give for a ticket failing a stage should be considered a first-class blocker and treated as such. The ticket should remain in its position on the board until it is resolved, and resolving it should be the whole team’s priority. That way, if you end up with too many failed tickets in progress, you will hit your column limits and be forced, as a team, to address the underlying issues causing the blocks.</p><p name="bc5c" id="bc5c" class="graf graf--p graf-after--p graf--trailing">Some stage failures are of course inevitable, but that doesn’t mean that we have to like them. Treating them as problematic and outside of normal working helps to socialise the idea that they are something to be avoided at all costs, and helps the whole team to improve.</p></div></div></section><section name="660d" class="section section--body section--last"><div class="section-divider"><hr class="section-divider"></div><div class="section-content"><div class="section-inner sectionLayout--insetColumn"><p name="6ea6" id="6ea6" class="graf graf--p graf--leading graf--trailing"><em class="markup--em markup--p-em">Jez Halford is a software development coach helping teams in the UK to be more agile, scale better and automate more. Visit </em><a href="https://jezhalford.com" data-href="https://jezhalford.com" class="markup--anchor markup--p-anchor" rel="noopener" target="_blank"><em class="markup--em markup--p-em">jezhalford.com</em></a><em class="markup--em markup--p-em"> to find out more.</em></p></div></div></section>
+</section>
+<footer><p>By <a href="https://medium.com/@jezhalford" class="p-author h-card">Jez Halford</a> on <a href="https://medium.com/p/29077793c499"><time class="dt-published" datetime="2016-11-07T15:05:13.000Z">November 7, 2016</time></a>.</p><p><a href="https://medium.com/@jezhalford/kanban-avoiding-going-backwards-29077793c499" class="p-canonical">Canonical link</a></p><p>Exported from <a href="https://medium.com">Medium</a> on March 18, 2019.</p></footer></article></body></html>

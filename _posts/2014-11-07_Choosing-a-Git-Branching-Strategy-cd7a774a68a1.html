@@ -1,0 +1,69 @@
+<!DOCTYPE html><html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"><title>Choosing a Git Branching Strategy</title><style>
+      * {
+        font-family: Georgia, Cambria, "Times New Roman", Times, serif;
+      }
+      html, body {
+        margin: 0;
+        padding: 0;
+      }
+      h1 {
+        font-size: 50px;
+        margin-bottom: 17px;
+        color: #333;
+      }
+      h2 {
+        font-size: 24px;
+        line-height: 1.6;
+        margin: 30px 0 0 0;
+        margin-bottom: 18px;
+        margin-top: 33px;
+        color: #333;
+      }
+      h3 {
+        font-size: 30px;
+        margin: 10px 0 20px 0;
+        color: #333;
+      }
+      header {
+        width: 640px;
+        margin: auto;
+      }
+      section {
+        width: 640px;
+        margin: auto;
+      }
+      section p {
+        margin-bottom: 27px;
+        font-size: 20px;
+        line-height: 1.6;
+        color: #333;
+      }
+      section img {
+        max-width: 640px;
+      }
+      footer {
+        padding: 0 20px;
+        margin: 50px 0;
+        text-align: center;
+        font-size: 12px;
+      }
+      .aspectRatioPlaceholder {
+        max-width: auto !important;
+        max-height: auto !important;
+      }
+      .aspectRatioPlaceholder-fill {
+        padding-bottom: 0 !important;
+      }
+      header,
+      section[data-field=subtitle],
+      section[data-field=description] {
+        display: none;
+      }
+      </style></head><body><article class="h-entry">
+<header>
+<h1 class="p-name">Choosing a Git Branching Strategy</h1>
+</header>
+<section data-field="body" class="e-content">
+<section name="4f68" class="section section--body section--first"><div class="section-divider"><hr class="section-divider"></div><div class="section-content"><div class="section-inner sectionLayout--insetColumn"><h3 name="55bd" id="55bd" class="graf graf--h3 graf--leading graf--title">Choosing a Git Branching Strategy</h3><p name="dac0" id="dac0" class="graf graf--p graf-after--h3">Recently I was part of a team trying to decide on a branching strategy for a new project. I had some clear ideas about what I thought made sense, but I found it hard to explain to my colleagues exactly why. To avoid justifying my ideas with hand-waving and mumbling in future, I decided to spend some time working out exactly what factors are involved in such a decision.</p><p name="5ddd" id="5ddd" class="graf graf--p graf-after--p">Git does a wonderful job of making branching easy, but knowing when to branch and when to merge can still be tricky. Getting this wrong can cause headaches later on when it comes to releasing features or handling urgent bugs in already released code, so it’s certainly worth giving it some thought.</p><p name="1ec6" id="1ec6" class="graf graf--p graf-after--p">In 2010, Vincent Driessen proposed <a href="http://nvie.com/posts/a-successful-git-branching-model/" data-href="http://nvie.com/posts/a-successful-git-branching-model/" class="markup--anchor markup--p-anchor" rel="noopener" target="_blank">gitflow</a> as one potential solution to this problem. It’s a very successful strategy that’s worth getting to grips with, but it’s not necessarily the right fit for your team. There are many factors involved in deciding a branching strategy that may mean you need something different.</p><p name="c8a8" id="c8a8" class="graf graf--p graf-after--p">First, some definitions. I’ll be talking about your <em class="markup--em markup--p-em">mainline</em>, meaning your repository’s default branch (usually master). I’ll also mention <em class="markup--em markup--p-em">feature branches</em> to refer to a branch where developers first commit code, that’s not the mainline.</p><p name="ffe2" id="ffe2" class="graf graf--p graf-after--p">Now, let’s look at the factors we need to consider when choosing a branching strategy.</p><h3 name="c3d8" id="c3d8" class="graf graf--h3 graf-after--p">Release Cadence</h3><p name="5ec5" id="5ec5" class="graf graf--p graf-after--h3">Do you ship at the end of every sprint whether it’s ready or not? Do you release code every day? Multiple times a day? Perhaps you release once a month, or just whenever you feel like it’s time. This is one of the things that varies most between different teams and it has a big impact on how you should structure your branches.</p><p name="be49" id="be49" class="graf graf--p graf-after--p">Put simply, the more often you release, the nearer your feature branches should be to the mainline. <a href="http://scottchacon.com/2011/08/31/github-flow.html" data-href="http://scottchacon.com/2011/08/31/github-flow.html" class="markup--anchor markup--p-anchor" rel="noopener" target="_blank">GitHub flow</a>, used by GitHub is a good example of this — developers branch from the mainline, develop their feature and then merge back to the mainline for immediate release. If, however, you release once every two weeks it makes more sense to merge to a ‘holding’ branch (like gitflow’s <em class="markup--em markup--p-em">develop </em>and <em class="markup--em markup--p-em">release </em>branches) before code reaches the mainline.</p><h3 name="24bf" id="24bf" class="graf graf--h3 graf-after--p">Testing</h3><p name="b10a" id="b10a" class="graf graf--p graf-after--h3">How confident are you that, once a feature has been developed, it will actually do what it was supposed to do? How do you confirm that the code works as expected? If you have some form of quality assurance or acceptance testing, at what stage is it done? There are lots of options around this, but it generally boils down to either <em class="markup--em markup--p-em">early stream </em>or <em class="markup--em markup--p-em">late stream</em> QA. The early variant means that a feature is tested before it is merged, the late variant means it’s tested afterwards. If your QA is early stream then you can probably get away with having your feature branch close to the mainline. If it’s late, then a release branch is probably where your QA should take place, so that failures can be rectified <em class="markup--em markup--p-em">before</em> they reach the mainline.</p><p name="b8eb" id="b8eb" class="graf graf--p graf-after--p">The only exception to that rule is if you have either particularly spare release cadence (so there’s time to fix things), or a reasonably high bug tolerance, for example if a project is pre-release or is an internal tool that isn’t mission critical. In these cases it’s generally wise to avoid additional long-lived branches and get straight to the mainline.</p><h3 name="9bc4" id="9bc4" class="graf graf--h3 graf-after--p">Release Certainty</h3><p name="1a28" id="1a28" class="graf graf--p graf-after--h3">How likely is it that a given feature will be released, assuming that it passes QA?</p><p name="238a" id="238a" class="graf graf--p graf-after--p">Release planning is another subject entirely, but your branching strategy needs to support your process. They key is to avoid a feature hitting the mainline until it’s approved for release. Gitflow achieves this via the develop and release branches, but you could achieve the same effect with just a mainline and a release branch.</p><h3 name="ea50" id="ea50" class="graf graf--h3 graf-after--p">In Conclusion</h3><p name="2b8b" id="2b8b" class="graf graf--p graf-after--h3">Every branching strategy is a variation on the theme of keeping code out of your mainline until you want it there, balanced against the management overhead caused by having lots of unmerged branches. If your instinct is to avoid merging until the last minute, think about why. Perhaps you need to schedule development more carefully. Conversely, if you’re having to undo merges and <a href="http://git-scm.com/docs/git-cherry-pick" data-href="http://git-scm.com/docs/git-cherry-pick" class="markup--anchor markup--p-anchor" rel="noopener" target="_blank">cherry pick</a> things a lot then perhaps you’re too keen to merge.</p><p name="3728" id="3728" class="graf graf--p graf-after--p graf--trailing">Ultimately, you have to be pragmatic. A complex strategy that mirrors your processes perfectly is only workable if your tooling is up to the job. It’s wise to start simply and add long-lived branches as you need them. Also bear in mind that git is very forgiving. Mistakes happen and they <em class="markup--em markup--p-em">can</em> be rectified — it doesn’t necessarily mean that your strategy is faulty.</p></div></div></section><section name="d4bf" class="section section--body section--last"><div class="section-divider"><hr class="section-divider"></div><div class="section-content"><div class="section-inner sectionLayout--insetColumn"><p name="7fbb" id="7fbb" class="graf graf--p graf--leading graf--trailing"><em class="markup--em markup--p-em">Jez Halford is a software development coach helping teams in the UK to be more agile, scale better and automate more. Visit </em><a href="https://jezhalford.com" data-href="https://jezhalford.com" class="markup--anchor markup--p-anchor" rel="noopener" target="_blank"><em class="markup--em markup--p-em">jezhalford.com</em></a><em class="markup--em markup--p-em"> to find out more.</em></p></div></div></section>
+</section>
+<footer><p>By <a href="https://medium.com/@jezhalford" class="p-author h-card">Jez Halford</a> on <a href="https://medium.com/p/cd7a774a68a1"><time class="dt-published" datetime="2014-11-07T12:34:07.000Z">November 7, 2014</time></a>.</p><p><a href="https://medium.com/@jezhalford/choosing-a-git-branching-strategy-cd7a774a68a1" class="p-canonical">Canonical link</a></p><p>Exported from <a href="https://medium.com">Medium</a> on March 18, 2019.</p></footer></article></body></html>
