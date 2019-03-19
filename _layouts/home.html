@@ -11,13 +11,14 @@ layout: default
   <section>
 
     <h3>Recent posts...</h3>
-    <hr style="width: 50vw; color: #000000;">
+    <hr style="width: 40vw; background-color: #000000; border: none; height: 1px;">
 
-    <ul>
-      {% for post in site.posts limit:1 %}
-        <li>
+      {% for post in site.posts limit:5 %}
+        <p>
           <a href="{{ post.url }}">{{ post.title }}</a>
-        </li>
+            <br>
+            <small>{{ post.date | date_to_string }}</small>
+        </p>
       {% endfor %}
     </ul>
 
