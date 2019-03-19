@@ -1,0 +1,45 @@
+---
+layout:	post
+title:	"Issue 6: Ten green bottles"
+date:	2017-08-21
+---
+
+  ![](/img/1*mdnYHcmS23ijRwYG8CrF8w.jpeg)Hello,
+
+Bottlenecks are on my mind this week. A bottleneck is any point in your software delivery process where things might get stuck. Imagine a team of five developers produces five new features every week. Each feature has to be approved by the product owner before it can be released, but they’re often busy in meetings so they can only look at one a week. There we have a bottleneck — five down to one.
+
+Much of my work involves dealing with bottlenecks, and there’s a few different ways to approach the problem.
+
+### Option A — Slow Down
+
+Instead of the developers producing five features a week, get them to produce just one. Then the product owner won’t be overwhelmed and the backlog will disappear. On the face of it, this might sound crazy, because it means an apparent 80% drop in developer productivity. But of course, if a feature isn’t released then it might as well never have been developed in the first place, so is it really an 80% drop? This 5-to-1 bottleneck is an extreme example, but often slowing down your delivery pipeline to match its slowest point can actually *increase* your rate of delivery by a considerable amount. Imagine a drive-through restaurant. There’s little point in the guy who takes the orders moving faster than the guy who hands over the bag of burgers at the end — you’d just block up the system.
+
+### Option B — Keep the bottleneck busy
+
+If our product owner is rarely available then it would be an absolute tragedy for them to find themselves with time to spare but for our developers to have nothing quite ready for them.
+
+Keeping a bottleneck busy means building up work so that there’s always some ready for when the limited resource becomes available. This is known as a *buffer.* Having a buffer doesn’t mean that we can just ignore the problem and keep piling stuff up — we need a sustainable upper limit so that it’s possible for our product owner to actually clear the backlog occasionally.
+
+Maintaining a full-enough-but-not-too-full buffer is a key aspect of smooth, timely delivery. It takes practice!
+
+### Option C — Remove the bottleneck
+
+Do we really need to have the product owner approve everything? What value does that give us? A useful question to ask might be “How often does the product owner actually deny a feature release?” If the answer is “Never” then what’s the point of them getting involved.
+
+Often this kind of artificial bottleneck arises in the form of change-approval boards, or running a full set of regression tests for every change. Again — how often do they actually change the outcome?
+
+Hopefully this gives you some ideas to get some of your own bottlenecks cleared away.
+
+### Links
+
+* A few link that I’ve found interesting to share with you this week — Agile super star Allan Kelly has been blogging on whether success in software [might all just be random after all](https://www.allankellyassociates.co.uk/archives/1530/what-if-it-is-all-random/). It turns out that it might be, but that might not actually matter. Certainly food for thought.
+* If you’re kicking off a new project and are stuck for what technology to use, then you might just want to use whatever everyone else is using. There’s a fascinating write-up on [technology trends in job postings](https://medium.freecodecamp.org/trending-developer-skills-based-on-my-analysis-of-ask-hn-whos-hiring-26c02a3ca1fd) at. Basically the answer is “Just use React”. Seems like a solid bet to me.
+That’s all for this week — more next time.
+
+Jez
+
+*Going Faster: Weekly ideas on speeding up your software team by Jez Halford, a software development consultant helping teams to deliver better software more quickly.*
+
+*There’s more from Jez on *[*Twitter*](https://twitter.com/jezhalford)*, *[*Medium *](https://medium.com/@jezhalford)*and *[*jezhalford.com*](https://jezhalford.com/)
+
+  

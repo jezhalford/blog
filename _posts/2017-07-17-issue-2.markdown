@@ -1,0 +1,34 @@
+---
+layout:	post
+title:	"Issue 2: High Visibility"
+date:	2017-07-17
+---
+
+  Hello! This week I want to focus on **visibility**. I’m a big fan of Kanban (an agile methodology, see also Scrum, XP, etc), and one of its key principles is *visualising work in progress*.
+
+When we visualise our work, we make sure that nothing gets left behind. Half finished work lying around will slow your team down by taking up their brain space and stressing them out. It’s harder to make reasoned judgements about changes to the state of a system if that state isn’t clear, and unfinished work blurs the lines between what a system does and does not do. Carrying this unfinished inventory is also [mathematically proven to slow your rate of delivery](http://itsadeliverything.com/littles-law-the-basis-of-lean-and-kanban).
+
+### Climb on board
+
+Kanban suggests mapping out the state of everything you have in play on a big, physical whiteboard, with columns for key phases (To Do, In Dev, In QA, etc) and post-its or other cards representing each item of work. This is a really useful tool for seeing what your team is working on, and spotting bottlenecks. But visualising doesn’t have to stop there. You can highlight who’s working on an issue by sticking a picture of their face next to it, for example.  
+And what happens when a tester finds a bug with one of your in-progress features? One of the best ideas I’ve seen is to use a [picture of a bug](http://www.random-badge-emporium.com/cockroach-fridge-magnet---choice-of-sizes---insect-bug-silhouette-pin-378870-p.asp) on a magnet to visually identify it. Seeing a lot of cockroaches? Maybe your developers and your testers aren’t on the same page when it comes to what a feature is supposed to do.
+
+You can also visualise impediments on your board. Encourage your team to get their red pens out and scribble on the board whenever they can’t move an item forwards. If red pen is taking over, it’s time to act. Or you might want to consider having the team write impediments on a brightly coloured post-it. You can then collect them all up regularly and discuss their underlying causes in a retrospective.
+
+### Metrics
+
+Don’t stop there, though! You should also look at visualising other useful things. Surfacing metrics from your application on a big TV is a great motivator for teams, and gives them fast feedback on how an application is performing. The morale boost of seeing an uptick in a sales graph shortly after deploying a killer new feature can’t be overstated. And if the graph goes the other way, your team can rapidly swing into action to mitigate the damage. [Grafana ](https://grafana.com/)is a really useful tool for putting big graphs on a screen, as is [Geckoboard](https://www.geckoboard.com/). There are lots of others.
+
+You don’t need a TV or software to visualise useful things. A big pile of post-its in a “Done” column speaks volumes about how well your team is doing. You might even consider drawing a sprint burndown chart on a whiteboard — it takes a few seconds each day and having it on public display rather than hidden in a report somewhere is hugely beneficial. Perhaps take inspiration from industry and put up signs proclaiming “[7] days without a production defect!”. It all helps to motivate you team and make them feel like a valued part of the wider company.
+
+### Starting
+
+If you’re just getting started with visualising, a useful exercise is to query your issue tracking software (e.g. JIRA) for everything that’s *started* but not delivered. Print it all out onto separate sheets of paper, or copy it onto post-its or cards of some sort. Next, spread it all out on a table and, along with your whole team, try to classify what is stopping you from delivering each thing. Arrange the cards into separate piles depending on the problem. Waiting on something external? A need to upgrade something in the production environment? Someone needs to make a decision? There’s probably loads of reasons, many of which will probably be new to you.
+
+Find the reason that’s holding up the most tickets, and fix it as a priority. Then the next most, and so on. You might be surprised at how many problems you can solve this way. You might also be surprised at just how much stuff there is piled up on the table in front of you. It might be worth going through this exercise regularly, perhaps every month, to flush out this hidden hold-ups and get things running smoothly.
+
+That’s all for this week! There’s always my [blog](https://medium.com/@jezhalford), if you still need something to read.  
+Jez
+
+
+> Going Faster: Weekly tips for speeding up your software team by Jez Halford, a software development consultant helping teams to deliver better software more quickly.  

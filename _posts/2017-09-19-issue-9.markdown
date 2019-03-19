@@ -1,0 +1,31 @@
+---
+layout:	post
+title:	"Issue 9: One step at a time"
+date:	2017-09-19
+---
+
+  ![](/img/0*l_fHmaH269ARzJXe.jpg)I think building software is much more about how we move a system from one state to the next than many of us realise. When we write a new feature, we check out our code, modify it, and then build a new version of the software that incorporates our changes. It’s tempting, therefore, to think of our software as a series of still images, jumping from one snapshot to the next as we make changes.
+
+But we’re never building isolated snapshots. We’re always moving from one picture to the next. We have users, data and state that needs to maintained between releases, and that means we need to put some thought into the process we’ll have to go through to move our software into its new shape.
+
+How often have you experienced a change that was made to your codebase, worked fine in testing, and then blew up spectacularly once it reached production? Often this kind of problem can be attributed to a lack of understanding of the state of the system in production.
+
+The most common area where developers may have to confront this is database migrations. These by their nature are always changes rather than snapshots. Drop that column, create this table; our migrations are instructions for moving us from one state to the next. I find it helpful, though, to think of every aspect of every change in the same way. It’s the developers job not simply to write how the code should be, but to consider exactly how to get it there.
+
+I try to think of each change as a patch: a set of changes that will take us from one situation to another. Do we need to clear a cache? Are we installing new packages? Is it necessary to restart some services? How will this affect our users at the moment it is released? It can be tempting to dismiss these problems as the domain of our release process, either automated away or frustratingly worked-through by the unlucky sole who must perform a manual release.
+
+Once we embrace this kind of patchy thinking, though, we start to get better at it. Maybe we don’t need to flush a cache every time we release? Wouldn’t our users have a better experience if we could do at least some of our releases without downtime? Once you’re used to thinking in this way, it starts to become easier to deliver smaller and smaller units of work.
+
+Consider a typical new feature that someone might want to build. It might need a new database table, plus some new API endpoints for our front-end to talk to, and then a new set of user access controls, and new user interface elements to use the feature. It’s easy to build all of that in one go, and then release it.
+
+But consider how we might deliver that feature across several small releases. First we add the new table. Next we build and release the new API endpoints, perhaps one at a time. Now we configure new access rules, disallowing all but internal users. Next we push out the new UI and finally we enable access to the feature for our users.
+
+By working this way, we dramatically reduce the risk involved in each release. We no longer need to cross our fingers and hope it works, because we can build confidence in the system’s stability during the course of building the feature.
+
+This is an idealised scenario, of course. Sometimes you need to make changes to existing features, or manipulate data in a way that’s not safe to do without downtime. But even if we only build a small percentage of our features this way, we’re still chipping away at the risk of big releases.
+
+*Going Faster: Weekly ideas on speeding up your software team by Jez Halford, a software development consultant helping teams to deliver better software more quickly.*
+
+*There’s more from Jez on *[*Twitter*](https://twitter.com/jezhalford)*, *[*Medium *](https://medium.com/@jezhalford)*and *[*jezhalford.com*](https://jezhalford.com/)
+
+  

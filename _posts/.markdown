@@ -1,0 +1,15 @@
+---
+layout:	post
+title:	"From The Sea To The Land Beyond"
+date:	2012-06-08
+---
+
+  UPDATE: landbeyond.co.uk is now offline, the project having run its course.
+
+For the past seven weeks I’ve been building [landbeyond.co.uk](http://landbeyond.co.uk/). It’s a website promoting the film *From The Sea To The Land Beyond*, which is launching at [Sheffield Doc/Fest](http://sheffdocfest.com/). The film is made from archive footage of the UK’s coastline from the past hundred years, made available by the [BFI](http://www.bfi.org.uk/), and features a soundtrack by [British Sea Power](http://www.britishseapower.co.uk/).
+
+On the site you can browse a selection of almost 300 archive clips and put them together along with British Sea Power’s music to make a sort of film postcard that incorporates the fun flippy-over technology that I discussed [here](https://jezhalford.com/post/24552161370/see-you-on-the-flip-side), along with lots of HTML5 video and audio goodness.
+
+*Originally published at *[*jezhalford.com*](https://jezhalford.com/2012/06/08/from-the-sea-to-the-land-beyond/)* on June 8, 2012.*
+
+  

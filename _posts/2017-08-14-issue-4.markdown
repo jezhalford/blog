@@ -1,0 +1,29 @@
+---
+layout:	post
+title:	"Issue 4: Squad Goals"
+date:	2017-08-14
+---
+
+  Hello!
+
+What are your team’s goals? Do you know, and do they? If you’re running sprints then you might have sprint goals — a catchy set of things you want to achieve in your current iteration. These are a useful tool for keeping a team focused. But can we get even more focused?
+
+What about daily goals? Between this standup and the next, what are we going to achieve? If you’re able to define this then I’d encourage you to write it down and stick it on the wall. Then, at the next standup you can look at it and see how you did.
+
+Other goals may be useful too. What are we going to achieve in the next six weeks? Or in the next six months? Make sure your team knows. At this level you can think of goals as a bit like a more detailed or incremental form of company mission statement.
+
+Mission statements often come in for a bit of ridicule. Starbucks defines their mission as
+
+
+> *“To inspire and nurture the human spirit — one person, one cup and one neighborhood at a time.”*Which is an awfully flowery way of selling coffee. But if we broke it down a bit, what might it look like?
+
+“We want to stay in people’s thoughts for longer so they buy more coffee. So, in the next six weeks we want to launch a new cup design that incorporates inspiring works of art.”
+
+“We want people to think we’re less evil. In the next six months we want to roll out a programme of community events to inspire kids to become baristas.”
+
+And so forth. These are just examples, but if Starbucks start putting art on their cups any time soon I’ll certainly be pursuing them for my cut.
+
+If you don’t have a mission statement, make one up. Even if it’s just “Sell more stuff”. Then break it down into goals that your team can get excited about. Inspiring your team — one cup of coffee at a time, if necessary — is a great way to get them moving faster.
+
+
+> Going Faster: Weekly tips for speeding up your software team by Jez Halford, a software development consultant helping teams to deliver better software more quickly.  
