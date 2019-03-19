@@ -1,4 +1,19 @@
 ---
-layout: none
+layout: default
 ---
-{{ site.posts.first }}
+
+<h2>{{ page.title }}</h2>
+
+  <section>
+
+    <h3>Recent posts...</h3>
+
+    <ul>
+      {% for post in site.posts limit:1 %}
+        <li>
+          <a href="{{ post.url }}">{{ post.title }}</a>
+        </li>
+      {% endfor %}
+    </ul>
+
+  </section>
