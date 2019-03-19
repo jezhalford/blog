@@ -4,7 +4,7 @@ title:	"Seven Deadly Wastes: Inventory"
 date:	2017-10-23
 ---
 
-  #### Going Faster: Issue 12
+  # Going Faster: Issue 12
 
 ![](/img/0*pYF69d1HtrV3Gzoq.jpg)The Seven Wastes are an idea from [lean manufacturing](https://en.wikipedia.org/wiki/Muda_%28Japanese_term%29#Seven_wastes), and I’m exploring how they relate to software development. Last week was [transport](https://medium.com/going-faster/seven-deadly-wastes-transport-822117500697), and this week is *inventory*.
 

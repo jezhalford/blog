@@ -6,7 +6,7 @@ date:	2017-08-01
 
   Hello !
 
-#### **Charters**
+# **Charters**
 
 This week, I’ve been working with a few teams to try to improve their love of the products they develop. I think anyone who manages a team of developers would like to think that their workers were all furiously dedicated souls who have the company’s mission statement written through them like a stick of rock, but that’s probably a long way from reality.
 
@@ -20,7 +20,7 @@ So what goes into a charter? Well, everyone enjoys a hilarious team name, so tha
 
 Getting your team to define all this and unite behind it is a great step towards demonstrating trust and empowerment, and starts to create an environment in which a team can really thrive.
 
-#### **Johnny Mnemonic**
+# **Johnny Mnemonic**
 
 Dodgy Keanu Reeves films aside, I’ve long been a fan of mnemonics. A mnemonic is just a word that helps you remember something. For example, pretty much the only thing I can still remember from my A-level in Physics is “SUVAT” — displacement (s), initial velocity (u), final velocity (v), acceleration (a), and time (t).It’s a word for remembering the components of the equations of motion, and was pretty useful at the time.
 
@@ -36,7 +36,7 @@ I like to use mnemonics to aid communication of ideas between team members. I’
 
 So, perhaps a mnemonic or two can help your team to build their shared understanding.
 
-#### **Follow The Leader**
+# **Follow The Leader**
 
 Finally I want to mention that “The Lead Developer”, a conference that I’m really sad I missed out on going to, is making me feel better by tweeting out a big collection of videos of their talks. You can find them all at [twitter.com/theleaddev](https://twitter.com/theleaddev) and I suggest you give a few a watch — it’s all good stuff.
 

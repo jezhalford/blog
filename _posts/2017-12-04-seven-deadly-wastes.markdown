@@ -4,7 +4,7 @@ title:	"Seven Deadly Wastes: Over production"
 date:	2017-12-04
 ---
 
-  #### Going Faster: Issue 16
+  # Going Faster: Issue 16
 
 ![](/img/0*4rb3HlrxnaT-EFhw.jpg)*The Seven Wastes are an idea from *[*lean manufacturing*](https://en.wikipedia.org/wiki/Muda_%28Japanese_term%29#Seven_wastes)*, and I’m exploring how they relate to software development. Last time was *[*over processing*](https://medium.com/going-faster/seven-deadly-wastes-dont-over-think-it-e2d56d747096)*, and this week is ****over production****.*
 

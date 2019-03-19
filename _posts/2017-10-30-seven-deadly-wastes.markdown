@@ -4,7 +4,7 @@ title:	"Seven Deadly Wastes: Motion"
 date:	2017-10-30
 ---
 
-  #### Going Faster: Issue 13
+  # Going Faster: Issue 13
 
 ![](/img/0*U6sQcEwqyLhJnbNf.)
 > The Seven Wastes are an idea from [lean manufacturing](https://en.wikipedia.org/wiki/Muda_%28Japanese_term%29#Seven_wastes), and I’m exploring how they relate to software development. Last week was [inventory](https://medium.com/going-faster/seven-deadly-wastes-inventory-61ccb6ef7d11), and this week is motion.Motion is the movement of people or things around work. This is why car factories use moving production lines — it’s much easier for the person who bolts on the wheels to stay still, and have the cars come along on a conveyor.

@@ -4,7 +4,7 @@ title:	"Seven Deadly Wastes: Bugs"
 date:	2017-12-11
 ---
 
-  #### Going Faster: Issue 17
+  # Going Faster: Issue 17
 
 ![](/img/0*n8ef0p41RCyAixJY.jpg)*The Seven Wastes are an idea from *[*lean manufacturing*](https://en.wikipedia.org/wiki/Muda_%28Japanese_term%29#Seven_wastes)*, and I’m exploring how they relate to software development. Last time was *[*over production*](https://medium.com/going-faster/seven-deadly-wastes-over-production-e21731f44358)*, and this week I’m looking at the last one: ****defects****.*
 

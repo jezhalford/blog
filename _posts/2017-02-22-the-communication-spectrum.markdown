@@ -4,7 +4,7 @@ title:	"The communication spectrum: getting people on your wavelength"
 date:	2017-02-22
 ---
 
-  Sometimes you need people to know stuff. Some of it is boring, non-essential and dull. Some of it is fascinating and vital.   #### Great software comes from great communication
+  Sometimes you need people to know stuff. Some of it is boring, non-essential and dull. Some of it is fascinating and vital.   # Great software comes from great communication
 
 ![](/img/0*2GJ2VK3Dec4cD8Bm.jpg)Sometimes you need people to know stuff. Some of it is boring, non-essential and dull. Some of it is fascinating and vital. Consider these two pieces of information:
 
@@ -15,7 +15,7 @@ Those are very different items of news. One is urgent, possibly requiring the im
 
 I don’t want to bash email. Email is okay. But it isn’t ideal for either of those messages. The point is to recognise that these two pieces of information are very different. Each requires a different approach to delivery.
 
-![](/img/0*Dd3jm7BiN_TTeFsY.jpg)#### Televisions and telegrams
+![](/img/0*Dd3jm7BiN_TTeFsY.jpg)# Televisions and telegrams
 
 A television pumps out information into a room. Sometimes it might catch our eye, but often it fades into the background while we scroll up and down on our phones.
 
@@ -23,7 +23,7 @@ A telegram demands attention. If you’re unfortunate enough to owe someone a lo
 
 Television and telegrams are very different. They sit near opposite ends of the communication spectrum.
 
-![](/img/0*03niSMCHwmScwQ9M.jpg)#### The communication spectrum
+![](/img/0*03niSMCHwmScwQ9M.jpg)# The communication spectrum
 
 There are loads of ways of getting a message to people on your team, and some are more effective than others. Here’s a few suggestions, in increasing order of how much attention they grab.
 

@@ -4,7 +4,7 @@ title:	"Seven Deadly Wastes: Waiting"
 date:	2017-11-07
 ---
 
-  #### Going Faster: Issue 14
+  # Going Faster: Issue 14
 
 ![](/img/0*ZNCp6MEZB8ZN6fqK.jpg)*The Seven Wastes are an idea from *[*lean manufacturing*](https://en.wikipedia.org/wiki/Muda_%28Japanese_term%29#Seven_wastes)*, and I’m exploring how they relate to software development. Last week was *[*motion*](https://medium.com/going-faster/seven-deadly-wastes-motion-323fdec694ed)*, and this week is ****waiting****.*
 

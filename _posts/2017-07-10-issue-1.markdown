@@ -12,7 +12,7 @@ I thought I’d start with communication. Specifically, the goal of building sha
 
 In order to not have a disaster (and therefore to deliver quickly), all these people need to be on the same page, and this is the thinking behind the three amigos meetings advocated by various agile types. But there’s probably more to it. User stories have been the go-to solution to building shared understanding for a while now. As a writer I want to send newsletters so that people will like me, for example.
 
-#### Oops
+# Oops
 
 Recently I learned about an alternative known as [OOPSI](https://jennyjmar.com/2016/04/16/bdd-discovery-and-oopsi/). OOPSI breaks a requirement down into *Outcomes, Outputs, Process, Scenarios* and *Inputs*. A simple example -
 
@@ -24,7 +24,7 @@ Recently I learned about an alternative known as [OOPSI](https://jennyjmar.com/2
 
 The *Outputs* section is also a great place to put things like wireframes and UX stuff. After all, the interface I’m using is an output of the system. *Process *can also be augmented with flowcharts, diagrams, or anything else that helps. And the *Inputs *can be a great place to store specific test cases.
 
-#### Exemplary
+# Exemplary
 
 While we’re building shared understanding, I can also recommend the technique of [Example Mapping](https://cucumber.io/blog/2015/12/08/example-mapping-introduction). It’s a really powerful way to tease out edge cases and test assumptions. You should probably read the blog post I’ve linked to, but in summary — write your high-level stories as* Given, When, Thens*. Then add to them with “The one where…” scenarios underneath.
 
@@ -38,7 +38,7 @@ While we’re building shared understanding, I can also recommend the technique 
 
 Communication needn’t stop there, though. Daily standups are a key form of communication for any software team. How do you do yours? Is it working as well as it could? There are loads of ideas in [this post](https://martinfowler.com/articles/itsNotJustStandingUp.html) on Martin Fowler’s website about how standups can be improved. For example, do you ask the typical three questions? (What did you do yesterday? What are you doing today? Are you blocked?). Maybe you should ask those in the reverse order. After all, aren’t blockers your priority? There are loads of other ideas to explore.
 
-#### Spectrum
+# Spectrum
 
 Finally, I want to suggest you think about the [Communication Spectrum](https://hackernoon.com/the-communication-spectrum-getting-people-on-your-wavelength-37e99299f96b). How important is the message you want to put across? Should it go on a TV screen, or a whiteboard, or an email, or a website, or a slack message, or should you yell it across the office? Often we resort to just one method for everything, either causing useless interruptions or allowing important news to get missed. It’s worth a bit more thought to get your point across in the best way.
 

@@ -4,7 +4,7 @@ title:	"Seven Deadly Wastes: Transport"
 date:	2017-10-16
 ---
 
-  #### Going Faster: Issue 11
+  # Going Faster: Issue 11
 
 ![](/img/0*zVLZhb7BXF41Cnik.jpg)This week I want to revisit an idea I blogged about a while ago, and about which I’ve recently been speaking at a few conferences: the seven deadly wastes.
 

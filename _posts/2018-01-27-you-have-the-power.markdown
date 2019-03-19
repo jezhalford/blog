@@ -4,7 +4,7 @@ title:	"You have the power!"
 date:	2018-01-27
 ---
 
-  #### Blockers are all in your mind. Smash them.
+  # Blockers are all in your mind. Smash them.
 
 ![](/img/0*JwVoxZkwcCsPjeDH.jpg)If you’re reading this, I imagine you’re some sort of software developer. A programmer, an engineer. A coder. What made you want to be a one of those?
 
