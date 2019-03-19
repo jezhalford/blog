@@ -8,7 +8,7 @@ If you find yourself needing to move some PHP code from Windows to Linux, you mi
 
 The usual advice for those wishing to send email from PHP is to avoid the mail() function entirely and use one of the many excellent libraries instead — [Swiftmailer](http://swiftmailer.org/) is a good choice. But what if you’re in the unusual position of having a big chunk of legacy code to and no time to deal with it?
 
-Enter [msmtp](http://msmtp.sourceforge.net/). It’s a nice, stable tool that speaks the same language as *sendmail*, which is what PHP on Linux expects you to use if you’re doing this properly. No one is going to suggest you do that, though.
+Enter [msmtp](http://msmtp.sourceforge.net/). It’s a nice, stable tool that speaks the same language as _sendmail_, which is what PHP on Linux expects you to use if you’re doing this properly. No one is going to suggest you do that, though.
 
 Instead, assuming you have an SMTP server standing by that’s ready to go, you can try this –
 
