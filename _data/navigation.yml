@@ -2,9 +2,6 @@
 
 - text: Home
   url: /
-- text: About
-  url: /about
-- text: Contact
-  url: /contact
-- text: Blog
-  url: /blog
+
+- text: &larr; jezhalford.com
+  url: https://jezhalford.com/
