@@ -7,10 +7,11 @@ layout: default
   {% include page-intro.html %}
 
   {{ content }}
-
+  
   <section>
 
-    <h3>Recent posts from the blog</h3>
+    <h3>Recent posts...</h3>
+    <hr style="width: 50vw; color: #000000;">
 
     <ul>
       {% for post in site.posts limit:1 %}
