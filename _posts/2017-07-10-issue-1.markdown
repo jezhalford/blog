@@ -4,7 +4,7 @@ title:	"Issue 1: Communication Breakdown"
 date:	2017-07-10
 ---
 
-  Hello!
+Hello!
 
 Welcome to issue one, and thanks for being here from the start.
 
@@ -12,39 +12,36 @@ I thought I’d start with communication. Specifically, the goal of building sha
 
 In order to not have a disaster (and therefore to deliver quickly), all these people need to be on the same page, and this is the thinking behind the three amigos meetings advocated by various agile types. But there’s probably more to it. User stories have been the go-to solution to building shared understanding for a while now. As a writer I want to send newsletters so that people will like me, for example.
 
-# Oops
+## Oops
 
-Recently I learned about an alternative known as [OOPSI](https://jennyjmar.com/2016/04/16/bdd-discovery-and-oopsi/). OOPSI breaks a requirement down into *Outcomes, Outputs, Process, Scenarios* and *Inputs*. A simple example -
-
-
-> ***Outcome:**** I’ve sent a newsletter and am delighted  
-> ****Output:**** A series of identical emails to everyone on my subscriber list  
-> ****Process:**** I log in, write the email in an editor and press send. The system dispatches one copy of the email to each subscriber.  
-> ****Inputs:**** An email with a subject and a body.*I think that’s a pretty clear description of what the tool I’m using to send this to you does. I could probably even have a stab at building it based on that information. Happily, I haven’t had to get bogged down with “As an X I want to Y” nonsense, because I already know that I want a newsletter tool. Chances are your team already has a pretty good high-level idea of what they’re building too. It’s just understanding the specifics that need to be worked on.
-
-The *Outputs* section is also a great place to put things like wireframes and UX stuff. After all, the interface I’m using is an output of the system. *Process *can also be augmented with flowcharts, diagrams, or anything else that helps. And the *Inputs *can be a great place to store specific test cases.
-
-# Exemplary
-
-While we’re building shared understanding, I can also recommend the technique of [Example Mapping](https://cucumber.io/blog/2015/12/08/example-mapping-introduction). It’s a really powerful way to tease out edge cases and test assumptions. You should probably read the blog post I’ve linked to, but in summary — write your high-level stories as* Given, When, Thens*. Then add to them with “The one where…” scenarios underneath.
+Recently I learned about an alternative known as [OOPSI](https://jennyjmar.com/2016/04/16/bdd-discovery-and-oopsi/). OOPSI breaks a requirement down into _Outcomes, Outputs, Process, Scenarios and Inputs_. A simple example -
 
 
-> ***GIVEN ****I am logged in and on the Write a letter screen  
-> ****WHEN ****I click send  
-> ****THEN ****the system should send my email to all my subscribers*
-> ***WHERE ****my email is blank, show an error  
-> ****WHERE ****I have no subscribers, show an error  
-> ****WHERE ****I have a premium subscription, run a spell check*…and so on. The power of the technique lies in writing all that down on coloured index cards and arranging them on a table. Then you can immediately see if a feature is too complicated (too many WHEREs) or if it is too broad (too many GIVEN, WHEN, THENs). It works incredibly well, and again provides really useful input to your testers in the form of all those edge cases.
+> **Outcome:** I’ve sent a newsletter and am delighted  
+> **Output:** A series of identical emails to everyone on my subscriber list  
+> **Process:** I log in, write the email in an editor and press send. The system dispatches one copy of the email to each subscriber.  
+> **Inputs:** An email with a subject and a body.*I think that’s a pretty clear description of what the tool I’m using to send this to you does. I could probably even have a stab at building it based on that information. Happily, I haven’t had to get bogged down with “As an X I want to Y” nonsense, because I already know that I want a newsletter tool. Chances are your team already has a pretty good high-level idea of what they’re building too. It’s just understanding the specifics that need to be worked on.
+
+The _Outputs_ section is also a great place to put things like wireframes and UX stuff. After all, the interface I’m using is an output of the system. _Process_ can also be augmented with flowcharts, diagrams, or anything else that helps. And the _Inputs_ can be a great place to store specific test cases.
+
+## Exemplary
+
+While we’re building shared understanding, I can also recommend the technique of [Example Mapping](https://cucumber.io/blog/2015/12/08/example-mapping-introduction). It’s a really powerful way to tease out edge cases and test assumptions. You should probably read the blog post I’ve linked to, but in summary — write your high-level stories as _Given, When, Thens_. Then add to them with “The one where…” scenarios underneath.
+
+
+> **GIVEN** I am logged in and on the Write a letter screen  
+> **WHEN** I click send  
+> **THEN** the system should send my email to all my subscribers*
+> **WHERE** my email is blank, show an error  
+> **WHERE** I have no subscribers, show an error  
+> **WHERE** I have a premium subscription, run a spell check*…and so on. The power of the technique lies in writing all that down on coloured index cards and arranging them on a table. Then you can immediately see if a feature is too complicated (too many WHEREs) or if it is too broad (too many GIVEN, WHEN, THENs). It works incredibly well, and again provides really useful input to your testers in the form of all those edge cases.
 
 Communication needn’t stop there, though. Daily standups are a key form of communication for any software team. How do you do yours? Is it working as well as it could? There are loads of ideas in [this post](https://martinfowler.com/articles/itsNotJustStandingUp.html) on Martin Fowler’s website about how standups can be improved. For example, do you ask the typical three questions? (What did you do yesterday? What are you doing today? Are you blocked?). Maybe you should ask those in the reverse order. After all, aren’t blockers your priority? There are loads of other ideas to explore.
 
-# Spectrum
+## Spectrum
 
 Finally, I want to suggest you think about the [Communication Spectrum](https://hackernoon.com/the-communication-spectrum-getting-people-on-your-wavelength-37e99299f96b). How important is the message you want to put across? Should it go on a TV screen, or a whiteboard, or an email, or a website, or a slack message, or should you yell it across the office? Often we resort to just one method for everything, either causing useless interruptions or allowing important news to get missed. It’s worth a bit more thought to get your point across in the best way.
 
 That’s all for this week! There’s always my [blog](https://medium.com/@jezhalford), if you still need something to read.
 
 Jez
-
-
-> Going Faster: Weekly tips for speeding up your software team.  

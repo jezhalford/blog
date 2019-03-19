@@ -4,7 +4,7 @@ title:	"Issue 8: Get Rhythm"
 date:	2017-09-12
 ---
 
-  ![](/img/0*L35tmDjiC0LKe2Bm.jpg)Over the last week coach and writer Michael D. Hill has been sending out a [fantastically insightful stream of tweets](https://storify.com/GeePawHill/a-sense-of-urgency?utm_source=embed_header) about how software teams can foster a sense of urgency.
+![](/img/0*L35tmDjiC0LKe2Bm.jpg)Over the last week coach and writer Michael D. Hill has been sending out a [fantastically insightful stream of tweets](https://storify.com/GeePawHill/a-sense-of-urgency?utm_source=embed_header) about how software teams can foster a sense of urgency.
 
 Urgency could just as easily be called “enthusiasm”. It’s about having a team that wants to come to work and do great stuff, rather than a team that dreads Mondays.
 
@@ -13,13 +13,13 @@ Michael introduced a lovely acronym called RAMPS (I love a good acronym). RAMPS 
 
 > [](https://twitter.com/GeePawHill/status/904698251953270784)Michael’s working through longer explanations for each of these on [his blog](http://geepawhill.org/). You should really read them all when you get a chance.
 
-This week I realised that I’ve been thinking about some of the elements of RAMPS without necessarily realising that *urgency* is what I’m trying to instil. I particularly want to focus on Rhythm — the R of RAMPS.
+This week I realised that I’ve been thinking about some of the elements of RAMPS without necessarily realising that _urgency_ is what I’m trying to instil. I particularly want to focus on Rhythm — the R of RAMPS.
 
 Michael defines rhythm as “ Periods of tension leading to periods of release. it’s the coming and going of energy & intensity.”
 
-S*ome* tension is useful, even necessary, but too much of it is bad news. I’ve worked in plenty of teams that are suffering “sprint fatigue” — where it’s a huge effort every time to meet sprint goals and everyone is burnt out. This is an example of having too much tension.
+_Some_ tension is useful, even necessary, but too much of it is bad news. I’ve worked in plenty of teams that are suffering “sprint fatigue” — where it’s a huge effort every time to meet sprint goals and everyone is burnt out. This is an example of having too much tension.
 
-Having *too little *tension is a difficult one, though. What if you’re just running along smoothly, but something seems to be missing? What do you do if people just never seem to get fired up?
+Having _too little_ tension is a difficult one, though. What if you’re just running along smoothly, but something seems to be missing? What do you do if people just never seem to get fired up?
 
 Working in sprints gives us a form of rhythm, though they’re not for everyone. Long iterations (six weeks? eight?) might make more sense for you. Or much shorter. To me, the best form of rhythm comes from releasing code regularly. One of the scariest answers I’ve heard to the question “How often do you release?” is “When we’re ready.”
 
@@ -30,9 +30,3 @@ Software, of course, is never done. The first programming job I had after univer
 It took about five years for that company to deliver any working software at all. I wasn’t there for that long.
 
 So — get rhythm, get urgency, get shipping.
-
-*Going Faster: Weekly ideas on speeding up your software team by Jez Halford, a software development consultant helping teams to deliver better software more quickly.*
-
-*There’s more from Jez on *[*Twitter*](https://twitter.com/jezhalford)*, *[*Medium *](https://medium.com/@jezhalford)*and *[*jezhalford.com*](https://jezhalford.com/)
-
-  

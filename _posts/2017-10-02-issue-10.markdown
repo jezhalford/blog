@@ -4,7 +4,7 @@ title:	"Issue 10: Following a star"
 date:	2017-10-02
 ---
 
-  ![](/img/1*YEZSlkLV0nu0emIJGZJgow.jpeg)I’ve just come back from code.talks 2017 in Hamburg. While there I heard a talk by Stefan Richter of Freiheit.com. Stefan was reflecting on his 20 years’ experience leading a team of developers, and talked about the need for a “North Star Metric”. This is a single measure of your team’s success, and it should be something customer-centric.
+![](/img/1*YEZSlkLV0nu0emIJGZJgow.jpeg)I’ve just come back from code.talks 2017 in Hamburg. While there I heard a talk by Stefan Richter of Freiheit.com. Stefan was reflecting on his 20 years’ experience leading a team of developers, and talked about the need for a “North Star Metric”. This is a single measure of your team’s success, and it should be something customer-centric.
 
 Facebook, for example, use user engagement time — the time users spend looking at Facebook. Everything they do is intended to increase this key metric, and they use it to inform new work, and to measure success.  
 In the past, I’ve talked about the need for a team’s “lighthouse”. A sort of goal or aim they can unite behind to give the team purpose. (And remember that Purpose is one of [Michael D. Hill’s key requirements for a motivated team](http://geepawhill.org/?p=145), as I talked about [a while ago](https://medium.com/going-faster/issue-8-get-rhythm-59e7990575c4)).
@@ -16,9 +16,3 @@ Measurable things are a bit harder to implement, though. They need tooling and t
 So, if you don’t have a lighthouse or a north star, it may be time to think about getting one. And if you have a lighthouse, your next question should be “How can we measure that?”
 
 Ultimately your aim should be to give your team a metric they can use to understand their own success. Then they’re another step closer to true autonomy, and an autonomous team is, generally, a happy and productive team.
-
-*Going Faster: Weekly ideas on speeding up your software team by Jez Halford, a software development consultant helping teams to deliver better software more quickly.*
-
-*There’s more from Jez on *[*Twitter*](https://twitter.com/jezhalford)*, *[*Medium *](https://medium.com/@jezhalford)*and *[*jezhalford.com*](https://jezhalford.com/)
-
-  

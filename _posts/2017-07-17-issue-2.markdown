@@ -4,7 +4,7 @@ title:	"Issue 2: High Visibility"
 date:	2017-07-17
 ---
 
-  Hello! This week I want to focus on **visibility**. I’m a big fan of Kanban (an agile methodology, see also Scrum, XP, etc), and one of its key principles is *visualising work in progress*.
+Hello! This week I want to focus on **visibility**. I’m a big fan of Kanban (an agile methodology, see also Scrum, XP, etc), and one of its key principles is _visualising work in progress_.
 
 When we visualise our work, we make sure that nothing gets left behind. Half finished work lying around will slow your team down by taking up their brain space and stressing them out. It’s harder to make reasoned judgements about changes to the state of a system if that state isn’t clear, and unfinished work blurs the lines between what a system does and does not do. Carrying this unfinished inventory is also [mathematically proven to slow your rate of delivery](http://itsadeliverything.com/littles-law-the-basis-of-lean-and-kanban).
 
@@ -23,12 +23,9 @@ You don’t need a TV or software to visualise useful things. A big pile of post
 
 ### Starting
 
-If you’re just getting started with visualising, a useful exercise is to query your issue tracking software (e.g. JIRA) for everything that’s *started* but not delivered. Print it all out onto separate sheets of paper, or copy it onto post-its or cards of some sort. Next, spread it all out on a table and, along with your whole team, try to classify what is stopping you from delivering each thing. Arrange the cards into separate piles depending on the problem. Waiting on something external? A need to upgrade something in the production environment? Someone needs to make a decision? There’s probably loads of reasons, many of which will probably be new to you.
+If you’re just getting started with visualising, a useful exercise is to query your issue tracking software (e.g. JIRA) for everything that’s _started_ but not delivered. Print it all out onto separate sheets of paper, or copy it onto post-its or cards of some sort. Next, spread it all out on a table and, along with your whole team, try to classify what is stopping you from delivering each thing. Arrange the cards into separate piles depending on the problem. Waiting on something external? A need to upgrade something in the production environment? Someone needs to make a decision? There’s probably loads of reasons, many of which will probably be new to you.
 
 Find the reason that’s holding up the most tickets, and fix it as a priority. Then the next most, and so on. You might be surprised at how many problems you can solve this way. You might also be surprised at just how much stuff there is piled up on the table in front of you. It might be worth going through this exercise regularly, perhaps every month, to flush out this hidden hold-ups and get things running smoothly.
 
 That’s all for this week! There’s always my [blog](https://medium.com/@jezhalford), if you still need something to read.  
 Jez
-
-
-> Going Faster: Weekly tips for speeding up your software team by Jez Halford, a software development consultant helping teams to deliver better software more quickly.  

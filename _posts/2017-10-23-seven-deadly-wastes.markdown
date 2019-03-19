@@ -4,7 +4,7 @@ title:	"Seven Deadly Wastes: Inventory"
 date:	2017-10-23
 ---
 
-  # Going Faster: Issue 12
+## Going Faster: Issue 12
 
 ![](/img/0*pYF69d1HtrV3Gzoq.jpg)The Seven Wastes are an idea from [lean manufacturing](https://en.wikipedia.org/wiki/Muda_%28Japanese_term%29#Seven_wastes), and I’m exploring how they relate to software development. Last week was [transport](https://medium.com/going-faster/seven-deadly-wastes-transport-822117500697), and this week is *inventory*.
 
@@ -35,9 +35,3 @@ It’s also important to try to ship things as often as you can, and in the smal
 In my experience, inventory is one of the most common wastes encountered by organisations of all sizes. It’s easy to overlook, and it can have a huge impact on your productivity. But fortunately it is also quite easy to reduce, once you recognise it.
 
 Remember: stop starting and start finishing!
-
-*Going Faster: Weekly ideas on speeding up your software team by Jez Halford, a software development consultant helping teams to deliver better software more quickly.*
-
-*There’s more from Jez on *[*Twitter*](https://twitter.com/jezhalford)*, *[*Medium *](https://medium.com/@jezhalford)*and *[*jezhalford.com*](https://jezhalford.com/)
-
-  

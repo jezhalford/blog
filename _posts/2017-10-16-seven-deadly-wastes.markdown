@@ -4,7 +4,7 @@ title:	"Seven Deadly Wastes: Transport"
 date:	2017-10-16
 ---
 
-  # Going Faster: Issue 11
+## Going Faster: Issue 11
 
 ![](/img/0*zVLZhb7BXF41Cnik.jpg)This week I want to revisit an idea I blogged about a while ago, and about which I’ve recently been speaking at a few conferences: the seven deadly wastes.
 
@@ -12,7 +12,7 @@ There are seven things that slow your software team down, and learning to conque
 
 The seven wastes come from the principle of of Lean Manufacturing, an idea with its origins in the Japanese car industry in the middle of the 20th century. That may seem a long way from the software industry of today, but the lessons are just as applicable to modern software development. By eliminating the seven wastes from your process, you’ll soon find your delivery times improve.
 
-The first of the seven is *transport*.
+The first of the seven is _transport_.
 
 This is the movement of materials from one location to another. It’s not hard to see how this slows manufacturing — a factory split across two sites will obviously be difficult to run — but in software transport waste is generally harder to see.
 
@@ -23,9 +23,3 @@ One way to reduce handovers like that is to foster a spirit of collaboration. En
 Another form of transport waste comes from moving code around. Deployments, branching and merging are all forms of transport. Clearly some are necessary — you need to be able to deploy things — but reducing the cost of that deployment is vital. If it takes more than a few minutes then it will have a significant impact on your productivity.
 
 Identifying and reducing instances of transport in your process is a great step towards going faster. Next week, I’ll look at the next waste: inventory.
-
-*Going Faster: Weekly ideas on speeding up your software team by Jez Halford, a software development consultant helping teams to deliver better software more quickly.*
-
-*There’s more from Jez on *[*Twitter*](https://twitter.com/jezhalford)*, *[*Medium *](https://medium.com/@jezhalford)*and *[*jezhalford.com*](https://jezhalford.com/)
-
-  

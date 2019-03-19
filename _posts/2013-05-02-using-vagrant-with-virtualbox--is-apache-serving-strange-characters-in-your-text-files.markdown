@@ -15,7 +15,3 @@ So, if you’re seeing those fun diamonds-with-question-marks-in, then add the f
 <Directory "/path-to-files"> EnableSendfile Off </Directory>Reload Apache and you should be good to go.
 
 See <http://httpd.apache.org/docs/current/mod/core.html#enablesendfile>
-
-*Originally published at *[*jezhalford.com*](https://jezhalford.com/2013/05/02/using-vagrant-with-virtualbox-is-apache-serving/)* on May 2, 2013.*
-
-  

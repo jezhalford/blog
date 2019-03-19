@@ -4,7 +4,7 @@ title:	"Issue 6: Ten green bottles"
 date:	2017-08-21
 ---
 
-  ![](/img/1*mdnYHcmS23ijRwYG8CrF8w.jpeg)Hello,
+![](/img/1*mdnYHcmS23ijRwYG8CrF8w.jpeg)Hello,
 
 Bottlenecks are on my mind this week. A bottleneck is any point in your software delivery process where things might get stuck. Imagine a team of five developers produces five new features every week. Each feature has to be approved by the product owner before it can be released, but they’re often busy in meetings so they can only look at one a week. There we have a bottleneck — five down to one.
 
@@ -12,13 +12,13 @@ Much of my work involves dealing with bottlenecks, and there’s a few different
 
 ### Option A — Slow Down
 
-Instead of the developers producing five features a week, get them to produce just one. Then the product owner won’t be overwhelmed and the backlog will disappear. On the face of it, this might sound crazy, because it means an apparent 80% drop in developer productivity. But of course, if a feature isn’t released then it might as well never have been developed in the first place, so is it really an 80% drop? This 5-to-1 bottleneck is an extreme example, but often slowing down your delivery pipeline to match its slowest point can actually *increase* your rate of delivery by a considerable amount. Imagine a drive-through restaurant. There’s little point in the guy who takes the orders moving faster than the guy who hands over the bag of burgers at the end — you’d just block up the system.
+Instead of the developers producing five features a week, get them to produce just one. Then the product owner won’t be overwhelmed and the backlog will disappear. On the face of it, this might sound crazy, because it means an apparent 80% drop in developer productivity. But of course, if a feature isn’t released then it might as well never have been developed in the first place, so is it really an 80% drop? This 5-to-1 bottleneck is an extreme example, but often slowing down your delivery pipeline to match its slowest point can actually _increase_ your rate of delivery by a considerable amount. Imagine a drive-through restaurant. There’s little point in the guy who takes the orders moving faster than the guy who hands over the bag of burgers at the end — you’d just block up the system.
 
 ### Option B — Keep the bottleneck busy
 
 If our product owner is rarely available then it would be an absolute tragedy for them to find themselves with time to spare but for our developers to have nothing quite ready for them.
 
-Keeping a bottleneck busy means building up work so that there’s always some ready for when the limited resource becomes available. This is known as a *buffer.* Having a buffer doesn’t mean that we can just ignore the problem and keep piling stuff up — we need a sustainable upper limit so that it’s possible for our product owner to actually clear the backlog occasionally.
+Keeping a bottleneck busy means building up work so that there’s always some ready for when the limited resource becomes available. This is known as a _buffer_. Having a buffer doesn’t mean that we can just ignore the problem and keep piling stuff up — we need a sustainable upper limit so that it’s possible for our product owner to actually clear the backlog occasionally.
 
 Maintaining a full-enough-but-not-too-full buffer is a key aspect of smooth, timely delivery. It takes practice!
 
@@ -37,9 +37,3 @@ Hopefully this gives you some ideas to get some of your own bottlenecks cleared 
 That’s all for this week — more next time.
 
 Jez
-
-*Going Faster: Weekly ideas on speeding up your software team by Jez Halford, a software development consultant helping teams to deliver better software more quickly.*
-
-*There’s more from Jez on *[*Twitter*](https://twitter.com/jezhalford)*, *[*Medium *](https://medium.com/@jezhalford)*and *[*jezhalford.com*](https://jezhalford.com/)
-
-  

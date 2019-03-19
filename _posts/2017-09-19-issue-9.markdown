@@ -4,7 +4,7 @@ title:	"Issue 9: One step at a time"
 date:	2017-09-19
 ---
 
-  ![](/img/0*l_fHmaH269ARzJXe.jpg)I think building software is much more about how we move a system from one state to the next than many of us realise. When we write a new feature, we check out our code, modify it, and then build a new version of the software that incorporates our changes. It’s tempting, therefore, to think of our software as a series of still images, jumping from one snapshot to the next as we make changes.
+![](/img/0*l_fHmaH269ARzJXe.jpg)I think building software is much more about how we move a system from one state to the next than many of us realise. When we write a new feature, we check out our code, modify it, and then build a new version of the software that incorporates our changes. It’s tempting, therefore, to think of our software as a series of still images, jumping from one snapshot to the next as we make changes.
 
 But we’re never building isolated snapshots. We’re always moving from one picture to the next. We have users, data and state that needs to maintained between releases, and that means we need to put some thought into the process we’ll have to go through to move our software into its new shape.
 
@@ -23,9 +23,3 @@ But consider how we might deliver that feature across several small releases. Fi
 By working this way, we dramatically reduce the risk involved in each release. We no longer need to cross our fingers and hope it works, because we can build confidence in the system’s stability during the course of building the feature.
 
 This is an idealised scenario, of course. Sometimes you need to make changes to existing features, or manipulate data in a way that’s not safe to do without downtime. But even if we only build a small percentage of our features this way, we’re still chipping away at the risk of big releases.
-
-*Going Faster: Weekly ideas on speeding up your software team by Jez Halford, a software development consultant helping teams to deliver better software more quickly.*
-
-*There’s more from Jez on *[*Twitter*](https://twitter.com/jezhalford)*, *[*Medium *](https://medium.com/@jezhalford)*and *[*jezhalford.com*](https://jezhalford.com/)
-
-  

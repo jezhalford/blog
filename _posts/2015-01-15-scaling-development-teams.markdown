@@ -4,7 +4,7 @@ title:	"Scaling Development Teams: The Whiteboard of Truth"
 date:	2015-01-15
 ---
 
-  I’ve spent a fair amount of time as a development contractor working in teams that are getting bigger, rapidly. I’m often brought in to help with development when a big round of funding has been raised and the investors need to see progress, or when a new client has a tight deadline. So, I see a lot of the problems that are associated with scaling teams quickly, and I thought I’d share some thoughts on making that process easier. Firstly — whiteboards.
+I’ve spent a fair amount of time as a development contractor working in teams that are getting bigger, rapidly. I’m often brought in to help with development when a big round of funding has been raised and the investors need to see progress, or when a new client has a tight deadline. So, I see a lot of the problems that are associated with scaling teams quickly, and I thought I’d share some thoughts on making that process easier. Firstly — whiteboards.
 
 When the time comes to increase the size of your development team, there are lots of tools you can make use of to help the process. Issue tracking software can organise everyone’s work and report on progress, a wiki will help new team members find answers quickly.
 
@@ -25,7 +25,3 @@ Of course, in most cases, this is nonsense. They are simply a human with one of 
 Note that you don’t need to write “John going to the doctor to get that strange rash looked at” or similar. If the reason for the event isn’t work related then no one needs to know it, they just need to know that person has a genuine reason, and that the boss is aware and okay with it. Without this kind of transparency on people’s working patterns there will always be the potential for friction. It also helps people plan their time better — if they know that the person they need will be out of the office tomorrow then they’ll go and talk to them today.
 
 I call it “The Whiteboard of Truth,” and I think you should too.
-
-*Jez Halford is a software development coach helping teams in the UK to be more agile, scale better and automate more. Visit *[*jezhalford.com*](https://jezhalford.com)* to find out more.*
-
-  

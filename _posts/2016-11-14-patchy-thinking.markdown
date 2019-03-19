@@ -4,7 +4,7 @@ title:	"Patchy Thinking: Software is a series of changes"
 date:	2016-11-14
 ---
 
-  Before git came along and revolutionised version control, the leading choice for organising code was SVN. Plenty of people still use it today, although many of them probably find it endlessly frustrating. I know I did.
+Before git came along and revolutionised version control, the leading choice for organising code was SVN. Plenty of people still use it today, although many of them probably find it endlessly frustrating. I know I did.
 
 I’d never suggest anyone stick around with SVN when git is available. But it does has one useful aspect that I’m not sure I’m ready to forget. Internally, git considers every revision to be a complete snapshot of the code. These snapshots are linked together and that forms our revision history. A series of still pictures, stretching backwards.
 
@@ -16,15 +16,8 @@ We are never building isolated snapshots, we are always moving from one state to
 
 How often have you experienced a change that was made to your codebase, worked fine in testing, and then blew up spectacularly once it reached production? Often this kind of problem can be attributed to a lack of understanding of the state of the system in production.
 
-The most common area where developers may have to confront this is database migrations. These by their nature are always *revisions* rather than snapshots. Drop that column, create this table; our migrations are instructions for moving us from one state to the next. I find it helpful, though, to think of every aspect of every change in the same way. It’s the developers job not simply to write how the code should be, but to consider exactly how to get it there.
+The most common area where developers may have to confront this is database migrations. These by their nature are always _revisions_ rather than snapshots. Drop that column, create this table; our migrations are instructions for moving us from one state to the next. I find it helpful, though, to think of every aspect of every change in the same way. It’s the developers job not simply to write how the code should be, but to consider exactly how to get it there.
 
 I try to think of each change as a patch: a set of changes that will take us from one situation to another. Do we need to clear a cache? Are we installing new packages? Is it necessary to restart some services? How will this affect our users at the moment it is released? It can be tempting to dismiss these problems as the domain of our release process, either automated away or frustratingly worked-through by the unlucky sole who must perform a manual release.
 
-Once we embrace this kind of patchy thinking, though, we start to get better at it. Maybe we don’t need to flush a cache every time we release? Wouldn’t our users have a better experience if we could do at least *some* of our releases without downtime? It’s this kind of wider-world view among developers that is part of the essence of DevOps — awareness from everyone on the team of how our systems *really* work, and what it takes to keep them going while we change them.
-
-*Jez Halford is a software development coach helping teams in the UK to be more efficient. Visit *[*jezhalford.com*](https://jezhalford.com)* to find out more, or follow *[*@jezhalford*](https://twitter.com/jezhalford)* for more updates.*
-
-
-> [Hacker Noon](http://bit.ly/Hackernoon) is how hackers start their afternoons. We’re a part of the [@AMI](http://bit.ly/atAMIatAMI)family. We are now [accepting submissions](http://bit.ly/hackernoonsubmission) and happy to [discuss advertising &sponsorship](mailto:partners@amipublications.com) opportunities.
-> To learn more, [read our about page](https://goo.gl/4ofytp), [like/message us on Facebook](http://bit.ly/HackernoonFB), or simply, [tweet/DM @HackerNoon.](https://goo.gl/k7XYbx)
-> If you enjoyed this story, we recommend reading our [latest tech stories](http://bit.ly/hackernoonlatestt) and [trending tech stories](https://hackernoon.com/trending). Until next time, don’t take the realities of the world for granted!  
+Once we embrace this kind of patchy thinking, though, we start to get better at it. Maybe we don’t need to flush a cache every time we release? Wouldn’t our users have a better experience if we could do at least _some_ of our releases without downtime? It’s this kind of wider-world view among developers that is part of the essence of DevOps — awareness from everyone on the team of how our systems _really_ work, and what it takes to keep them going while we change them.

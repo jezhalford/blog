@@ -4,18 +4,18 @@ title:	"Kanban: Start with what’s normal now"
 date:	2016-11-17
 ---
 
-  ![](/img/1*BeVMJXQUeNSwBdV-bRFHbg.jpeg)I want to look into the detail of how to define your initial work stages on a Kanban board. If you’re not familiar with Kanban, you can read an overview [here](https://medium.com/@jezhalford/making-kanban-work-for-you-eadfe82cd4c8#.44qkx99xb). I think it’s a great methodology for managing software development, and a nice alternative to scrum.
+![](/img/1*BeVMJXQUeNSwBdV-bRFHbg.jpeg)I want to look into the detail of how to define your initial work stages on a Kanban board. If you’re not familiar with Kanban, you can read an overview [here](https://medium.com/@jezhalford/making-kanban-work-for-you-eadfe82cd4c8#.44qkx99xb). I think it’s a great methodology for managing software development, and a nice alternative to scrum.
 
-One of the most important aspects of Kanban is to visualise everything your team is doing. I like using a physical whiteboard because it’s much more flexible than software and much larger than a screen. It shows you where your bottlenecks are, and identifies where time is being lost. So, get a whiteboard, gather the team together and thrash out exactly *what’s normal now*, from the point at which a work item is delivered to the team, to the point at which that work is delivered to your customers.
+One of the most important aspects of Kanban is to visualise everything your team is doing. I like using a physical whiteboard because it’s much more flexible than software and much larger than a screen. It shows you where your bottlenecks are, and identifies where time is being lost. So, get a whiteboard, gather the team together and thrash out exactly _what’s normal now_, from the point at which a work item is delivered to the team, to the point at which that work is delivered to your customers.
 
-Typically, this will involve several stages, starting with “To Do” and ending in “Done”, and probably passing through things like “In Dev”, “Code Review”, “QA” and the like. These are just examples, though, be sure to model exactly what happens in *your *team.
+Typically, this will involve several stages, starting with “To Do” and ending in “Done”, and probably passing through things like “In Dev”, “Code Review”, “QA” and the like. These are just examples, though, be sure to model exactly what happens in _your_ team.
 
-During this process, it’s easy to get sidetracked with edge cases, and tempting to shy away from reality in favour of what you know *should *be happening. For every potential work phase that comes out of the conversation, try to categorise it into one of the following buckets —
+During this process, it’s easy to get sidetracked with edge cases, and tempting to shy away from reality in favour of what you know _should_ be happening. For every potential work phase that comes out of the conversation, try to categorise it into one of the following buckets —
 
 * Normal
 * Exceptional
 * Aspirational
-Edge cases like “Well, sometimes we’ve forgotten what a ticket actually means so we have to go and ask the product guy before we start development” are probably e*xceptional*, while an *aspirational* phase might be “We know we should do a code review here, but often we just don’t bother.” Put these kinds of distractions to one side and you should end up with a series of typical steps that your work goes through at least, say, two thirds of the time.
+Edge cases like “Well, sometimes we’ve forgotten what a ticket actually means so we have to go and ask the product guy before we start development” are probably _exceptional_, while an _aspirational_ phase might be “We know we should do a code review here, but often we just don’t bother.” Put these kinds of distractions to one side and you should end up with a series of typical steps that your work goes through at least, say, two thirds of the time.
 
 As an example, imagine that you’ve arrived at the following phases—
 
@@ -23,7 +23,7 @@ As an example, imagine that you’ve arrived at the following phases—
 2. In Dev
 3. In QA
 4. Release
-Next you need to decide on where to place *buffers*. These are extra steps in between where work can wait before being handed over to another team or person. The names of these often start with “Ready for…” or end in “…Complete”, indicating that one person’s work on an item is complete and it is ready for the next stage. Let’s add some of these to my example —
+Next you need to decide on where to place _buffers_. These are extra steps in between where work can wait before being handed over to another team or person. The names of these often start with “Ready for…” or end in “…Complete”, indicating that one person’s work on an item is complete and it is ready for the next stage. Let’s add some of these to my example —
 
 1. To Do
 2. In Dev
@@ -34,7 +34,3 @@ Next you need to decide on where to place *buffers*. These are extra steps in be
 Now we’ve created some space in our system to allow a smooth handover of work between team members. Map these phases onto a whiteboard as columns, and you have your Kanban board. Your next step is to fill it with post-its and gain some new insight into exactly what your teams spends their time doing.
 
 More detail on how to operate your board is coming soon. In the meantime, there’s an overview [in one of my previous posts](https://medium.com/@jezhalford/making-kanban-work-for-you-eadfe82cd4c8#.44qkx99xb), or at <http://www.eylean.com/blog/2014/07/5-steps-to-start-doing-kanban/>.
-
-*Jez Halford is a software development coach helping teams in the UK to be more efficient. Visit *[*jezhalford.com*](https://jezhalford.com)* to find out more, or follow *[*@jezhalford*](https://twitter.com/jezhalford)* for more updates.*
-
-  

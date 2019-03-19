@@ -4,7 +4,7 @@ title:	"Denser, Cooler, Faster, Stronger: PHP On ARM Microservers"
 date:	2015-12-30
 ---
 
-  [ARM](http://www.arm.com/) are the world’s largest designer of semiconductors. They design the processors that run 90% of the world’s smartphones, as well as countless chips inside cars, home electronics, and more-or-less any other thing you can think of the has some electronic smarts to it. They are not so well known as designers of server CPUs, but that may all be about to change.
+[ARM](http://www.arm.com/) are the world’s largest designer of semiconductors. They design the processors that run 90% of the world’s smartphones, as well as countless chips inside cars, home electronics, and more-or-less any other thing you can think of the has some electronic smarts to it. They are not so well known as designers of server CPUs, but that may all be about to change.
 
 Last year ARM hired me to help move the PHP-based [arm.com](http://arm.com/) away from the ageing Windows servers it was running on, and onto shiny new ARM-based microservers. The idea being that if ARM servers were now a serious proposition for enterprise data centres, it would certainly make sense for ARM themselves to be using them.
 
@@ -33,7 +33,3 @@ On the web servers themselves we kept things fairly simple — we had to use
 For file storage, we considered clustering the web nodes together using [Ceph](http://ceph.com/) or [Gluster](https://www.gluster.org/), but in the end kept things simple by mounting an external file server that ARM already had available. Since there were so many logs being generated on so many machines, we also configured log aggregation from the various web, database and load-balancer nodes to a single “management” node using [rsyslog](http://www.rsyslog.com/). This was a fairly basic solution, and something like [logstash](https://www.elastic.co/products/logstash) would have been nice to try if we’d had the time. Finally, a multi-server architecture really highlights the advantage of a configuration management tool. We used [Ansible](http://www.ansible.com/) to provision and control the various nodes.
 
 *ARM don’t manufacture any hardware themselves, they license their designs to manufacturers. You’ll therefore never see an ARM-branded server, but the m400s have ARM-designed CPUs inside.
-
-*Originally published at *[*jezhalford.com*](https://jezhalford.com/2015/12/30/denser-cooler-faster-stronger-php-on-arm-microservers/)* on December 30, 2015.*
-
-  

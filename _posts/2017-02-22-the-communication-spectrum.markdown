@@ -4,7 +4,7 @@ title:	"The communication spectrum: getting people on your wavelength"
 date:	2017-02-22
 ---
 
-  Sometimes you need people to know stuff. Some of it is boring, non-essential and dull. Some of it is fascinating and vital.   # Great software comes from great communication
+Sometimes you need people to know stuff. Some of it is boring, non-essential and dull. Some of it is fascinating and vital.   # Great software comes from great communication
 
 ![](/img/0*2GJ2VK3Dec4cD8Bm.jpg)Sometimes you need people to know stuff. Some of it is boring, non-essential and dull. Some of it is fascinating and vital. Consider these two pieces of information:
 
@@ -52,8 +52,3 @@ Whiteboards also work well for this kind of thing. I’ve previously suggested u
 At the bottom of our spectrum is the potent, yet very disruptive, “yelling across the office”. I’d suggest this is often a reasonable course of action in the event of a major production outage.
 
 Where does your message fit?
-
-
-> Jez Halford is a software development consultant helping teams to deliver better software, more frequently. Visit [jezhalford.com](https://jezhalford.com) to find out more.[![](/img/1*0hqOaABQ7XGPT-OYNgiUBg.png)](http://bit.ly/HackernoonFB)[![](/img/1*Vgw1jkA6hgnvwzTsfMlnpg.png)](https://goo.gl/k7XYbx)[![](/img/1*gKBpq1ruUi0FVK2UM_I4tQ.png)](https://goo.gl/4ofytp)
-> [Hacker Noon](http://bit.ly/Hackernoon) is how hackers start their afternoons. We’re a part of the [@AMI](http://bit.ly/atAMIatAMI) family. We are now [accepting submissions](http://bit.ly/hackernoonsubmission) and happy to [discuss advertising & sponsorship](mailto:partners@amipublications.com) opportunities.
-> If you enjoyed this story, we recommend reading our [latest tech stories](http://bit.ly/hackernoonlatestt) and [trending tech stories](https://hackernoon.com/trending). Until next time, don’t take the realities of the world for granted!![](/img/1*35tCjoPcvq6LbB3I6Wegqw.jpeg)  

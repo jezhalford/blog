@@ -4,7 +4,7 @@ title:	"Issue 5: You know why they call it a Royale With Cheese?"
 date:	2017-08-14
 ---
 
-  Hello!
+Hello!
 
 This week I’ve been thinking about metrics. I love a good metric. A metric is simply a thing we use to measure how well a team is doing. If I’m going to help a team to improve then metrics are a great way of demonstrating what areas need to be worked on, and then demonstrating an improvement.
 
@@ -26,7 +26,7 @@ Very simply, how long is it from the time you decide to do something to the time
 Controversial, perhaps, but interesting. Especially considered alongside your feature lead time.
 
 **Static code analysis**  
-On the more technical side of things, tools like <https://codeclimate.com/> can give you loads of insight into how your code base is doing. Of particular interest are things like *churn* (how often a given file or set of files is changed, indicating poor architecture or a problematic feature), *cyclomatic complexity *(how complex your code is — branching logic, nested loops etc — and therefore how hard it might be for developers to work with) and *test coverage* (how good a job your tests are doing of testing all your features)
+On the more technical side of things, tools like <https://codeclimate.com/> can give you loads of insight into how your code base is doing. Of particular interest are things like _churn_ (how often a given file or set of files is changed, indicating poor architecture or a problematic feature), _cyclomatic complexity_ (how complex your code is — branching logic, nested loops etc — and therefore how hard it might be for developers to work with) and _test coverage_ (how good a job your tests are doing of testing all your features)
 
 **Deployment frequency**  
 How often your code reaches your live environment. I’ve seen this range from approximately twice an hour to approximately twice a year. Being able to deploy as often as you like opens up possibilities for better business agility, faster fixes and easier experimentation. Deploying often should always be one of your goals.
@@ -37,7 +37,7 @@ This week I’ve confirmed I’ll be [speaking ](https://www.codetalks.de/en/201
 
 ### Bathroom Windows
 
-Finally for this week, I want to draw your attention to an article on dev.to — <https://dev.to/atyborska93/what-my-bathroom-window-taught-me-about-code-quality>. This site is full of loads of great writing by software developers, but this particular article stood out to me this week. I think it’s the most concise argument for *just getting stuff done* that I’ve seen.
+Finally for this week, I want to draw your attention to an article on dev.to — <https://dev.to/atyborska93/what-my-bathroom-window-taught-me-about-code-quality>. This site is full of loads of great writing by software developers, but this particular article stood out to me this week. I think it’s the most concise argument for _just getting stuff done_ that I’ve seen.
 
 Thanks for reading!
 

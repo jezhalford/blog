@@ -4,17 +4,17 @@ title:	"You have the power!"
 date:	2018-01-27
 ---
 
-  # Blockers are all in your mind. Smash them.
+## Blockers are all in your mind. Smash them.
 
 ![](/img/0*JwVoxZkwcCsPjeDH.jpg)If you’re reading this, I imagine you’re some sort of software developer. A programmer, an engineer. A coder. What made you want to be a one of those?
 
-For me, it was the idea that I can make a computer do *anything I want*. I imagine it might be similar reasons for other people. Within our digital domain, we are all-powerful bit-flipping super gods.
+For me, it was the idea that I can make a computer do _anything I want_. I imagine it might be similar reasons for other people. Within our digital domain, we are all-powerful bit-flipping super gods.
 
 But here’s the interesting thing: sometimes I think we forget that.
 
-Have you ever said something like: *“That feature isn’t finished yet, because I’m waiting for the other team to finish their API”?*
+Have you ever said something like: _“That feature isn’t finished yet, because I’m waiting for the other team to finish their API”?_
 
-What about: *“We can’t release this feature because we already merged the other feature, and that isn’t ready yet because the front-end team haven’t finished their bit, so we’ll just have to wait”?*
+What about: _“We can’t release this feature because we already merged the other feature, and that isn’t ready yet because the front-end team haven’t finished their bit, so we’ll just have to wait”?_
 
 All-powerful bit-flipping super gods? What happened?
 
@@ -29,7 +29,4 @@ I understand it’s hard to do. I’ve used plenty of those kinds of excuses mys
 There’s always a temptation to delay merging and releasing until everything is perfect. But our idea of perfection is always changing, just like everything else.
 
 So: embrace the chaos, get stuck in and get busy changing stuff. We can always change it again tomorrow. That’s what we do.
-
-*Jez Halford is a software development consultant helping teams to deliver better software, more frequently. Visit *[*jezhalford.com*](https://jezhalford.com)* to find out more.*
-
   
