@@ -1,1 +1,21 @@
 // add font-face or font import declarations here
+
+@import url('https://fonts.googleapis.com/css?family=Raleway:100|Lato:300');
+
+body {
+    p, li, small, strong, i {
+        font-family: 'Lato', sans-serif;
+    }
+    
+    main  {
+        h1, h2, h3 {
+            font-family: 'Raleway';
+            font-weight: 100;
+            font-style: normal;
+        }
+    }
+    img {
+        margin-bottom: 1em;
+    }
+}
+

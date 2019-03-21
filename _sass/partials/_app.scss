@@ -102,6 +102,10 @@ main {
   @media screen and (min-width: $screen-md-min) {
     align-content: start;
   }
+
+  h1 {
+    font-size: 5.2rem;
+  }
 }
 
 // reset breaking fallbacks (e.g. widths) if CSS Grid is supported
