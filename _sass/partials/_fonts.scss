@@ -1,6 +1,6 @@
 // add font-face or font import declarations here
 
-@import url('https://fonts.googleapis.com/css?family=Raleway:100|Lato:300');
+@import url('https://fonts.googleapis.com/css?family=Raleway:200|Lato:200');
 
 body {
     p, li, small, strong, i {
@@ -15,7 +15,11 @@ body {
         }
     }
     img {
-        margin-bottom: 1em;
+        margin-bottom: 1rem;
+    }
+
+    time {
+        display: block;
     }
 }
 
